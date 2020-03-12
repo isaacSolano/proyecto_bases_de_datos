@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00434C37-D452-7669-C2C5-8BB5033872DC" name="favoritos">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 21:08:54 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_favorito" id="537010AF-29D3-327D-5556-6208845A7802">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 21:08:59 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="45055EF6-F1E6-A3A4-5A9F-4CB10A24B60F">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 21:10:05 UTC</createdTime>
+<generatorID>EE67D2C4-4D39-7AE3-FE94-273A1AFA4167</generatorID>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<referedAttribute>BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0AAF14EC-4B66-68DE-FE4B-44D74CE83185" name="favoritos PK">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 21:09:47 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>537010AF-29D3-327D-5556-6208845A7802</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="preferir" directorySegmentName="seg_0" id="EE67D2C4-4D39-7AE3-FE94-273A1AFA4167">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 21:10:05 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<sourcePk>FC3234A6-740D-1259-A249-30B67154F898</sourcePk>
+<targetPk>0AAF14EC-4B66-68DE-FE4B-44D74CE83185</targetPk>
+<identifying>false</identifying>
+<nameOnSource>id_usuario</nameOnSource>
+<nameOnTarget>id_usuario</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3D37B082-3499-364E-8B0E-4F69F08FAA41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00434C37-D452-7669-C2C5-8BB5033872DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

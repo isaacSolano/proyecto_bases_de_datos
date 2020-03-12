@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D6C6F66-C01C-E8AD-A3DF-6CDD1E59E969" name="reproducciones">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 20:37:51 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reproduccion" id="8CDCE641-AF38-E195-3D94-A105289A551D">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 20:40:32 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="articulo" id="7F17EB33-5E05-3E68-193C-1509FF36A8B5">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 20:38:18 UTC</createdTime>
+<comment><![CDATA[Llave foranea el articulo (cancion, saga, serie, pelicula)]]></comment>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="C3401D8F-F81A-5AC0-8336-BE5EDDEE605D">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 20:39:27 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_actual" id="C610EC63-6496-5FFF-E7AC-91D2465E6582">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 20:39:52 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_reproducciones" id="DA5F87AD-F932-FD20-20AB-3ED0D5595942">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 20:40:04 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="17C3B975-8FC1-549D-4E51-7C65CE50FD30">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 21:11:12 UTC</createdTime>
+<generatorID>FDC4A296-C4B3-CB72-380F-E6503E342751</generatorID>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<referedAttribute>BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04000B41-6C67-CB44-975D-CEF2443C8501" name="Reproducciones PK">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 20:40:57 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CDCE641-AF38-E195-3D94-A105289A551D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
