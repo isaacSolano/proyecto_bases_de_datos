@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59BB69FE-AEE9-2D13-F2C6-C172AD584424" name="formas_pago">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>02D28ACB-ED48-C4E0-0F5D-D9B6CDDD28A8</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6EF887C7-3D29-79F4-200A-7F1ECA70333F">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>E8E58E6A-B30F-2AA4-E4E4-85EC90F6ABF1</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_tarjeta" id="074A13BA-1E85-F3F7-56DE-009EB9CB67AD">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>6CD2CC96-DE57-C08C-F1DB-A141299186F9</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_propetario" id="C75C1ECB-F49E-D3CE-1B4A-87BBC3576A91">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>C631474B-6127-EBF9-52C9-E3D9E600D52F</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vencimiento" id="EEF2F876-BA88-5EDA-FCFA-7D4F48134399">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>3D0F2831-8860-FB80-35C7-F694E8263B88</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cvv" id="A4E49AFC-866D-C85B-39B5-86DE6FAA52AE">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>6EF8002A-F7E5-3EFB-45F4-8B26CE886F28</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="84CC8167-9164-FF40-977C-7E0B8109B46B">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>53ED2CA2-A47E-CEE1-F7CA-D4FA612467A7</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FADC721-3667-3AE7-4E3D-747F1F29DC08" name="formas_pago PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>261EEEBF-59D4-B56D-88D9-E77F6F2F72E2</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6EF887C7-3D29-79F4-200A-7F1ECA70333F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

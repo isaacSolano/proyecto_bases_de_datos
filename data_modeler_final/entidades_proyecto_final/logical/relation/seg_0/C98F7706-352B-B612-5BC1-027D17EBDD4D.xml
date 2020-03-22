@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tener_d" directorySegmentName="seg_0" id="C98F7706-352B-B612-5BC1-027D17EBDD4D">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 21:11:50 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>FC3234A6-740D-1259-A249-30B67154F898</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>id_usuario</nameOnSource>
+<nameOnTarget>id_usuario</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3D37B082-3499-364E-8B0E-4F69F08FAA41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D09B7D71-A51F-152D-19F6-5B70F73909A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FBE2924-C9CB-0117-184A-7B22FFBFE57F" name="canciones">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>A6012065-9322-10FC-25F6-2839FEA08D52</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="90A36A3B-4C86-4054-6879-06CF4E2E3133">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>20372F2B-35EB-6113-D9D5-23BF5AC57F22</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="20BFA201-7FA3-F8D0-4224-1C3CC19E300D">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>D88EAFD7-08A2-4BF5-4B15-9924A1EB12FC</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="25BCC3F2-0082-9C39-018F-67F90670C039">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>17C98C0D-A8EE-1232-5E20-F4D75496F75C</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="letra" id="F686A06E-6D47-345D-3A78-5E7925315C0F">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>B041DA40-D5E5-E855-74D7-96E5189640C3</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="link_cancion" id="D7626D50-FAC6-1680-37DC-90CD098FF0A5">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>5BB1124B-D57B-2C4D-FF64-E181686E3FB9</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="17058D4F-B793-8DB4-5DFB-09D7087C0351">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>B20FCD04-6EE6-DABB-3812-2EDD32617491</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D35609B5-E756-A8A3-17C9-1EE1A4C392B9">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<generatorID>CE4447AF-84B6-0D24-75FA-CE2636C963A1</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>2BCC5FD0-F9E6-1875-8473-3A7B3AE9D791</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>67C12D9C-7D2F-ABBC-3A7E-ABF844587A89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="CA828A20-4BBD-FD6B-C792-326490086138">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<generatorID>D7EFD7DD-6027-E640-4891-EC82696428AF</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>8BAE07E7-7FB4-F5E5-AAE1-C8325F800703</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>365CA7A2-B9A4-CBD5-2532-1992471AB811</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42DE34D5-92E0-D195-4DA2-8E0458FC4A52" name="canciones PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>25A6EBFB-5A50-C3FA-7DFF-BE65242AC5A2</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90A36A3B-4C86-4054-6879-06CF4E2E3133</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

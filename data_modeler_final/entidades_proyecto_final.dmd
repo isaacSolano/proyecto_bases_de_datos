@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="entidades_proyecto_final" id="A4B57F24-3FE1-0477-5178-9D29836E32D9" version="3.5">
+<createdBy>Invitado</createdBy>
+<createdTime>2020-03-12 16:39:51 UTC</createdTime>
+<ownerDesignName>entidades_proyecto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A4B57F24-3FE1-0477-5178-9D29836E32D9</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="97C3972F-4D0C-8814-942D-2F8D316C9865">
+<designStoragePath>C:\Users\Tecnologia\Documents\projects\proyecto_bases_de_datos\data_modeler\entidades_christopher</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
