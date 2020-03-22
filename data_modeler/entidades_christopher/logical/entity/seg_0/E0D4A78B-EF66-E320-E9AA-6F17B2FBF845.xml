@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0D4A78B-EF66-E320-E9AA-6F17B2FBF845" name="musico">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:07:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0CA3B1B9-2F43-C62A-9E34-3915A5B396FA">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:07:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B1038571-A783-FA80-3000-352DBF7AE1E0">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:07:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="235945B5-2A5D-FCF2-63BA-6FF670371891">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:07:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="F12701C5-EA3E-3845-E31A-3FD23AE9A155">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:07:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="990B72C2-4122-A908-B9CE-3B6BDE71E604">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:07:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_artistico" id="C3973B23-3503-3562-6F3B-D604DD99EC13">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:08:01 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF18BD7F-FBE8-4897-CE71-167B9C54CCF0" name="productor PK">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:07:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CA3B1B9-2F43-C62A-9E34-3915A5B396FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

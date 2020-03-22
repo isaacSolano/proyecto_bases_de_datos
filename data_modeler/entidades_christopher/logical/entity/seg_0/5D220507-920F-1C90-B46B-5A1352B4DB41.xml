@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D220507-920F-1C90-B46B-5A1352B4DB41" name="productor">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:04:21 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="25DF007B-CDD0-DF98-FB78-0BAD0DD012DC">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:04:42 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="01FF3B78-6C2F-EF26-A6AC-3A259BE60442">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:05:00 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="6CFCAE4F-A36E-CB2B-4C56-CBFD5E05ABC8">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:05:21 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="CC1D8268-B411-11D1-A313-63FAC0D002FD">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:05:37 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="5024F8E1-1ACD-F5CE-8C20-C26F474942B9">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:05:53 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9176A4E8-28EE-CD70-8BF1-0B05B647BC2E" name="productor PK">
+<createdBy>Cristopher Soto</createdBy>
+<createdTime>2020-03-22 17:04:44 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="FA12EA8C-FEDB-3E37-9F4F-BE229567E014" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25DF007B-CDD0-DF98-FB78-0BAD0DD012DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
