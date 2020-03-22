@@ -98,6 +98,20 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario" id="9F0ADE84-E83A-0E14-C05A-369FBABBDBDC">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 18:17:15 UTC</createdTime>
+<generatorID>0BE36208-D87B-E544-953D-C6C443BB81A7</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5FADC721-3667-3AE7-4E3D-747F1F29DC08" name="formas_pago PK">

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="365CA7A2-B9A4-CBD5-2532-1992471AB811">
+<Attribute name="id_musico" id="365CA7A2-B9A4-CBD5-2532-1992471AB811">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

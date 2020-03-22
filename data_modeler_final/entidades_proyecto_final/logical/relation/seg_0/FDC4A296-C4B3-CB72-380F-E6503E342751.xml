@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tener_r" directorySegmentName="seg_0" id="FDC4A296-C4B3-CB72-380F-E6503E342751">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="elegir" directorySegmentName="seg_0" id="FDC4A296-C4B3-CB72-380F-E6503E342751">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 21:11:12 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

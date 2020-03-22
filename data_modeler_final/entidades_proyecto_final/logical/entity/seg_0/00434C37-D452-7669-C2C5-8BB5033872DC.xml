@@ -41,6 +41,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_cancion" id="6CF2C588-7B93-6633-5567-E7E26E37868E">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 19:58:41 UTC</createdTime>
+<generatorID>47FE894A-7C62-AE06-BF8D-7E6479EDB66F</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>90A36A3B-4C86-4054-6879-06CF4E2E3133</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0AAF14EC-4B66-68DE-FE4B-44D74CE83185" name="favoritos PK">

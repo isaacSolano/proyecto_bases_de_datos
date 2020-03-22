@@ -94,6 +94,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_cancion" id="B6F8CD10-0858-CE9D-3F50-4C36F9064C77">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-22 20:03:19 UTC</createdTime>
+<generatorID>8342EF9F-AF33-63EE-B352-CFD1027844DE</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>90A36A3B-4C86-4054-6879-06CF4E2E3133</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="04000B41-6C67-CB44-975D-CEF2443C8501" name="Reproducciones PK">
