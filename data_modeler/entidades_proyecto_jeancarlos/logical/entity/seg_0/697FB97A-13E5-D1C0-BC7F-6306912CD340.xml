@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="697FB97A-13E5-D1C0-BC7F-6306912CD340" name="Peliculas">
+<createdBy>Jeancarlo</createdBy>
+<createdTime>2020-03-23 18:46:56 UTC</createdTime>
+<ownerDesignName>ProyectoBD</ownerDesignName>
+<engineerTo>
+<item key="F9AAC40E-2A6E-2D1E-B47A-5ACA7A19EE3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPelicula" id="4FDA4575-B623-2184-4877-59CD9888CDE1">
+<createdBy>Jeancarlo</createdBy>
+<createdTime>2020-03-23 18:47:29 UTC</createdTime>
+<ownerDesignName>ProyectoBD</ownerDesignName>
+<engineerTo>
+<item key="F9AAC40E-2A6E-2D1E-B47A-5ACA7A19EE3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="6EE5889C-F634-E111-9B6D-623C4B40775E">
+<createdBy>Jeancarlo</createdBy>
+<createdTime>2020-03-23 18:47:32 UTC</createdTime>
+<ownerDesignName>ProyectoBD</ownerDesignName>
+<engineerTo>
+<item key="F9AAC40E-2A6E-2D1E-B47A-5ACA7A19EE3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duración" id="F9C624BC-4511-71BE-E958-11B2622183C5">
+<createdBy>Jeancarlo</createdBy>
+<createdTime>2020-03-23 18:47:35 UTC</createdTime>
+<ownerDesignName>ProyectoBD</ownerDesignName>
+<engineerTo>
+<item key="F9AAC40E-2A6E-2D1E-B47A-5ACA7A19EE3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria" id="702A0B6E-7725-CE6D-97DB-C852411A0A69">
+<createdBy>Jeancarlo</createdBy>
+<createdTime>2020-03-23 18:59:34 UTC</createdTime>
+<ownerDesignName>ProyectoBD</ownerDesignName>
+<engineerTo>
+<item key="F9AAC40E-2A6E-2D1E-B47A-5ACA7A19EE3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero" id="C091B02C-4F13-2BD3-206E-EEE2614DB1DB">
+<createdBy>Jeancarlo</createdBy>
+<createdTime>2020-03-23 18:59:39 UTC</createdTime>
+<ownerDesignName>ProyectoBD</ownerDesignName>
+<engineerTo>
+<item key="F9AAC40E-2A6E-2D1E-B47A-5ACA7A19EE3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
