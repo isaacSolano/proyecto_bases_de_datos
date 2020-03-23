@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D09B7D71-A51F-152D-19F6-5B70F73909A9" name="descargas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D09B7D71-A51F-152D-19F6-5B70F73909A9" name="descargas_canciones">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:57:51 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -25,21 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="articulo" id="B0EA3800-DFB6-928D-6EAE-E81D8DC279BE">
-<createdBy>Invitado</createdBy>
-<createdTime>2020-03-12 20:57:51 UTC</createdTime>
-<comment><![CDATA[Llave foranea el articulo (cancion, saga, serie, pelicula)]]></comment>
-<ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_inicio" id="65EE4FB3-19D3-1401-4111-064218ABFDA5">
 <createdBy>Invitado</createdBy>
@@ -48,7 +35,6 @@
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -61,24 +47,24 @@
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cant_reproducciones" id="BADC417C-B8F1-BBFF-A2A1-8C4A00BC0BA9">
+<Attribute name="cantidad" id="BADC417C-B8F1-BBFF-A2A1-8C4A00BC0BA9">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:57:51 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_usuario" id="00A94E24-EF76-98A6-6333-1AAE2805F4ED">
 <createdBy>Invitado</createdBy>
@@ -92,6 +78,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_cancion" id="47C88966-9AD8-2671-F058-00E48F0B8F3D">
@@ -105,17 +92,19 @@
 <referedAttribute>90A36A3B-4C86-4054-6879-06CF4E2E3133</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7075BC03-6D08-0F38-79DC-0646E69730B0" name="Reproducciones PK">
+<identifier id="7075BC03-6D08-0F38-79DC-0646E69730B0" name="descargas_canciones PK">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:57:51 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

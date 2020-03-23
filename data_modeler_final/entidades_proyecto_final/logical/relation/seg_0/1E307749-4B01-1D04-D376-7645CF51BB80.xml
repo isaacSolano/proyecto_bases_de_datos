@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="seleccionar" directorySegmentName="seg_0" id="EE67D2C4-4D39-7AE3-FE94-273A1AFA4167">
-<createdBy>Invitado</createdBy>
-<createdTime>2020-03-12 21:10:05 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="iniciar_reropducir_cancion" directorySegmentName="seg_0" id="1E307749-4B01-1D04-D376-7645CF51BB80">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:34:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
@@ -15,7 +15,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>3D37B082-3499-364E-8B0E-4F69F08FAA41</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>00434C37-D452-7669-C2C5-8BB5033872DC</targetEntity>
+<targetEntity>D91B15E5-0774-C522-14BF-64531B8371FA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

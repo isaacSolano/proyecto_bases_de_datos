@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8BCEAE7-9859-193B-6BD0-02295513D893" name="reparto">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>C6CBB318-AE2C-57B6-61E2-6C2B2CEA1D9D</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reparto" id="5FF7E144-D438-9530-8A19-9B564569F3DB">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>C0B4B455-FFCB-B225-3F98-E3D08892066D</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9DBBFF7-D378-0465-0C52-F73A7E202F49" name="reparto_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>42F85F4F-7A02-9390-F36B-344B8C87A524</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF7E144-D438-9530-8A19-9B564569F3DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

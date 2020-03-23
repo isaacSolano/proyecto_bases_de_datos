@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6C67553-0E01-7DE2-1064-C3C29F2C1B92" name="reproducciones_canciones">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>D91B15E5-0774-C522-14BF-64531B8371FA</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reproduccion" id="998EE073-C9F9-13D6-A62F-36E3FA38FCCF">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>783BA6A9-2D19-FC11-6AA4-38A257171A5F</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="6C3AC5C0-B1D0-41E0-602D-521288A2E9EF">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>B37B58AF-C2D7-A314-8237-41209376C075</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_actual" id="FF2AFF4D-B485-D276-3AFE-C285766AF87A">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>966636A0-14AB-E5F0-9281-1B7AFA601253</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_reproducciones" id="43341AF9-0C02-3289-F68B-D817EDE6B7F3">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>F1B901DC-815A-6898-6A9C-06CFA5FA2A51</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="canciones_id_cancion" id="0197C7F5-4836-64F4-F45A-791C1B266866">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>0BE0FFDD-EB5F-6CFD-6AE2-70765EEF35B8</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC462379-E7F0-0456-AAF5-1E19CD61CF15" referredColumn="8496BE9E-EC4C-FCDC-5A6F-9EE411C37B96"/>
+</associations>
+</Column>
+<Column name="usuarios_id_usuario" id="E647D8F3-77E3-910A-76B4-12CE7EF37CBE">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>4C384433-36E7-51DB-CDFF-3BC2FBE56872</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDCFFD84-A5B5-7067-2D0E-B0E9D184845D" referredColumn="D32769E4-20EC-23D1-7B05-2D24AE4B7D53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A769A5C5-E48C-B73A-50FD-6026519A5E8C" name="reproducciones_canciones_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>858D7DD9-3E14-F804-B2F3-6A795067D8E2</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="998EE073-C9F9-13D6-A62F-36E3FA38FCCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52A28570-23CC-5945-7BBD-A3F98B663B40" name="reproducciones_canciones_usuarios_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>1E307749-4B01-1D04-D376-7645CF51BB80</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E647D8F3-77E3-910A-76B4-12CE7EF37CBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CA5A84C-7C61-60A9-D753-E5E41C1AF8DD" name="reproducciones_canciones_canciones_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>421BE4F4-A74C-9F45-37A4-77CF3FEA006A</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0197C7F5-4836-64F4-F45A-791C1B266866"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

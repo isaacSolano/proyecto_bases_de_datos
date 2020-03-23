@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A245195B-A2A8-A708-2754-603A35C5B698" name="saga_pelicula">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:21:34 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_saga" id="15EB3D77-8ECD-388A-A939-70AC9E933A70">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:21:34 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="BC250B72-8039-37BF-669E-C82DC994DBA8">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:21:34 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anno" id="57BC64D8-0FB6-1E02-65CD-28CF3244E176">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:21:34 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="F41F1852-3153-0A46-7F8F-2514A4B7ADE0">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:21:34 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="21339B23-1677-8525-6C23-70B8C406D249">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:21:34 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelicula" id="AE24CF61-5768-50F9-367E-B812D4508EB4">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:22:25 UTC</createdTime>
+<generatorID>9A8F8F54-7822-0C62-6BBD-6EC5B92263A6</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>98C38D83-51A8-4762-EED7-5C1543CBD877</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="401947D5-4861-CA3F-ECC1-7236AD87CAC4" name="sagas PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:21:34 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15EB3D77-8ECD-388A-A939-70AC9E933A70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

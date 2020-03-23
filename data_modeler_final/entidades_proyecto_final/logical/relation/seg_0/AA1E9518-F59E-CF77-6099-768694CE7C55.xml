@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reproducir_serie_tv" directorySegmentName="seg_0" id="AA1E9518-F59E-CF77-6099-768694CE7C55">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:04:23 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>27967F9C-D12D-01AD-D04A-D6A4984CC4C1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>id_serie_tv</nameOnSource>
+<nameOnTarget>id_serie_tv</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18B5B0EE-DD7E-DC19-0DC0-4312054691B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB87938A-8272-166E-3AF1-0B1ED5489EDE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

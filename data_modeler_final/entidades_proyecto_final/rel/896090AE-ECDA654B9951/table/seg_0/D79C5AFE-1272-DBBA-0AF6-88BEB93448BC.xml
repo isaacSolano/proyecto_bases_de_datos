@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D79C5AFE-1272-DBBA-0AF6-88BEB93448BC" name="peliculas_favoritas">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>D6710278-36D9-7BEE-4160-10778D1B5E89</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_favorito" id="A659D07D-E903-1E10-4AD4-D6D236651D9E">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>5293E30E-F781-AF7B-4246-9EE8E639235E</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuarios_id_usuario" id="1A93D3D9-DDBE-086D-E58C-D0A35008BBA3">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>F01AF897-9310-8638-6B38-5422BF7FE5ED</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF76FCF2-5629-511B-A1E8-69A8EDDE5129" referredColumn="D32769E4-20EC-23D1-7B05-2D24AE4B7D53"/>
+</associations>
+</Column>
+<Column name="peliculas_id_pelicula" id="38E76229-15C1-5610-23F6-F1F31D7FA400">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>5988DF7F-33A9-96AB-2E5F-28B0B7575B73</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81A7A6B7-1E28-8F7E-2528-7347A0719287" referredColumn="A1759EAF-EE19-32DC-C01B-E4F551C6462C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25FEBD79-6A14-2D1B-A822-FEA8B1E7EF0E" name="peliculas_favoritas_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>50A06ADD-FCD4-E617-A299-4382DFA4AFEE</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A659D07D-E903-1E10-4AD4-D6D236651D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCEDC8E1-5C72-01F8-8D6B-9068F5E62F14" name="peliculas_favoritas_usuarios_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>78457F21-A3E8-AB22-E80F-A58D43F2F518</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A93D3D9-DDBE-086D-E58C-D0A35008BBA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4CED1FC-25BA-0C94-2BB5-9B7868CA7F34" name="peliculas_favoritas_peliculas_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>5978F21C-AFF2-1616-62B9-9E160845E1C7</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E76229-15C1-5610-23F6-F1F31D7FA400"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

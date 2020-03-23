@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6337930-61DB-C239-7EFB-9D4DE57CC8B7" containerWithKeyObject="D0256B92-7125-7105-A036-3A4C37804A8A" localFKIndex="15972AF6-0658-54EE-376C-A3B78BBF9D66" name="series_tv_favoritas_series_tv_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>B3612BEF-F874-9DB9-6FCD-1B093D83C921</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>series_tv</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A0A821A-2D73-5466-D0A3-4ABAB9E4019B</referredTableID>
+<keyObject>5902D388-1662-6932-61FA-C563F74D36EF</keyObject>
+<referredKeyID>5902D388-1662-6932-61FA-C563F74D36EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_serie_tv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3A89F17-3297-3FA2-6483-458003315742" name="participaciones">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>25A22201-2C66-17AE-5421-725E8DCD9567</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_participacion" id="51B03E1E-0692-0703-631C-63D35739B7DE">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>0ED55AB7-1CD5-44C7-F543-EB699C599FF2</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actores_id_actor" id="22BFEB56-5C06-96E3-AEBD-740D4B17A5EE">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>173550B7-7768-CD4A-5355-158F6D52A136</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="420719A5-6B9C-F9EE-B28F-17EA69A1B61E" referredColumn="3437682A-4FD2-CE61-6A5C-9500CE1DE9CF"/>
+</associations>
+</Column>
+<Column name="reparto_id_reparto" id="56FCC20C-196C-9D8C-416E-7989F37B1B12">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>EEEE0114-6201-9065-587E-E984A2E0107E</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="963C2D4A-2CEB-1121-502C-629DEC395E35" referredColumn="5FF7E144-D438-9530-8A19-9B564569F3DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B92C670B-4DF2-60DF-9928-E8DF5722CB41" name="participaciones_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>01C69F3E-22F0-8453-47E0-78B507109E4D</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B03E1E-0692-0703-631C-63D35739B7DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAFDB517-06C8-81B2-E20B-8E4A6395A74D" name="participaciones_reparto_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>6D0FB4F6-25E7-5FDF-275D-866B2D303073</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56FCC20C-196C-9D8C-416E-7989F37B1B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26F76881-6E26-0CCF-872A-F12A3B596F87" name="participaciones_actores_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>91A70B51-8FE5-9050-5893-697F58812B8E</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22BFEB56-5C06-96E3-AEBD-740D4B17A5EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="iniciar_descarga_serie_tv" directorySegmentName="seg_0" id="A365DF12-8AF5-0023-F1ED-B204EC0E5637">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:01:00 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>FC3234A6-740D-1259-A249-30B67154F898</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>id_usuario</nameOnSource>
+<nameOnTarget>id_usuario</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3D37B082-3499-364E-8B0E-4F69F08FAA41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31C90250-99CE-8149-8E4C-FECACCA6E414</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5D81BD2-BD57-439F-C21C-1272C54F76B5" name="productor">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>58F407F3-952E-2C5A-FEF4-4EE80968FD7F</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_productor" id="C56DA546-1DDF-B7B9-48FE-BFF564C68512">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>67C12D9C-7D2F-ABBC-3A7E-ABF844587A89</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="271931C0-1D41-23A5-6175-5145CB531C08">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>A7C054F4-77D5-C4D4-3046-24DA8E64D2BD</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="2143A129-B1C6-065C-8C99-38F76F7FEDA6">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>01ADF623-267F-0581-5667-0B0147709CE9</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="191420A1-FD32-60BB-682F-6136170C39A3">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>04B7FFC7-C6DE-641C-D916-8104F7DDCE40</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="F597D6F3-B6D7-E03A-7812-80209604FAE5">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>F5E338F9-C831-7320-B170-E5932BF5F00E</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="0DE8A09E-244D-2983-C635-6D7A014043B7">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>64131B40-C31E-E875-8719-5E2FBC0821F7</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5AB390B-8235-354C-B91E-B33759DD2F61" name="productor_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>DAEA5E29-AE3C-C8EF-5891-CAF524A8D1C5</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C56DA546-1DDF-B7B9-48FE-BFF564C68512"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

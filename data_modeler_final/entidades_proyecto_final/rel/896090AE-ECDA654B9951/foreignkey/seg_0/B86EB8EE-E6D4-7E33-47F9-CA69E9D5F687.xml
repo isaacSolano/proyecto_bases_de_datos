@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B86EB8EE-E6D4-7E33-47F9-CA69E9D5F687" containerWithKeyObject="AC3ABC30-CC23-DA5C-E4E1-A7573432CC5B" localFKIndex="917E6A6F-2738-EF4D-0D71-3643FEC3CEE0" name="canciones_musico_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>D7EFD7DD-6027-E640-4891-EC82696428AF</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>musico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F1FFB48-7FEE-5857-94FA-BD333976132C</referredTableID>
+<keyObject>3BC0DEF4-CC56-9341-1C03-C16D7774FBA4</keyObject>
+<referredKeyID>3BC0DEF4-CC56-9341-1C03-C16D7774FBA4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_musico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

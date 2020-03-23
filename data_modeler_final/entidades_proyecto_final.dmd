@@ -9,5 +9,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="97C3972F-4D0C-8814-942D-2F8D316C9865">
 <designStoragePath>C:\Users\Tecnologia\Documents\projects\proyecto_bases_de_datos\data_modeler\entidades_christopher</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6BA3530F-3938-E279-E0C3-8B6F0DAE46F9">
+<designStoragePath>C:\Users\Tecnologia\Documents\projects\proyecto_bases_de_datos\data_modeler\entidades_proyecto_jeancarlos</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

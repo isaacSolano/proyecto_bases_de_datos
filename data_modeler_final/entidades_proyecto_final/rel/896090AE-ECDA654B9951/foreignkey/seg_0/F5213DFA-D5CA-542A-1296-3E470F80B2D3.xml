@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5213DFA-D5CA-542A-1296-3E470F80B2D3" containerWithKeyObject="AD2F7B2A-8C33-E677-1677-E3B0F0C1B3D9" localFKIndex="EFB711BE-8339-D866-9C52-DA0C21109125" name="descargas_pelicula_usuarios_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>ECE6E007-DD99-44ED-EB7B-8F33D1CC7759</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F44BDD2E-DD58-3DEB-6D46-9DCBAD4F94AE</referredTableID>
+<keyObject>D4330C13-87B0-8026-23B2-EA5C23EB6F3A</keyObject>
+<referredKeyID>D4330C13-87B0-8026-23B2-EA5C23EB6F3A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

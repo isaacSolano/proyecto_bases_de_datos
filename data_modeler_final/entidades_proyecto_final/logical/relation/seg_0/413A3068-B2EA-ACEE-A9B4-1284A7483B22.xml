@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="descargar_serie_tv" directorySegmentName="seg_0" id="413A3068-B2EA-ACEE-A9B4-1284A7483B22">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:03:46 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>27967F9C-D12D-01AD-D04A-D6A4984CC4C1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>id_serie_tv</nameOnSource>
+<nameOnTarget>id_serie_tv</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18B5B0EE-DD7E-DC19-0DC0-4312054691B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31C90250-99CE-8149-8E4C-FECACCA6E414</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

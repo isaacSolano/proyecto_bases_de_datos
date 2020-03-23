@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="iniciar" directorySegmentName="seg_0" id="C98F7706-352B-B612-5BC1-027D17EBDD4D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="iniciar_descargar_cancion" directorySegmentName="seg_0" id="C98F7706-352B-B612-5BC1-027D17EBDD4D">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 21:11:50 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

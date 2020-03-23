@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="preferir_pelicula" directorySegmentName="seg_0" id="5978F21C-AFF2-1616-62B9-9E160845E1C7">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:56:14 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>2D1CB518-E1A8-A206-7285-330EDF0FBB90</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>id_pelicula</nameOnSource>
+<nameOnTarget>id_pelicula</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49D70B4C-281B-9FC0-9B5C-13FB4FAE6462</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D6710278-36D9-7BEE-4160-10778D1B5E89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

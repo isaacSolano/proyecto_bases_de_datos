@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D91B15E5-0774-C522-14BF-64531B8371FA" name="reproducciones_canciones">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:08 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reproduccion" id="783BA6A9-2D19-FC11-6AA4-38A257171A5F">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:08 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="B37B58AF-C2D7-A314-8237-41209376C075">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:08 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_actual" id="966636A0-14AB-E5F0-9281-1B7AFA601253">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:08 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_reproducciones" id="F1B901DC-815A-6898-6A9C-06CFA5FA2A51">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:08 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cancion" id="0BE0FFDD-EB5F-6CFD-6AE2-70765EEF35B8">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:34:27 UTC</createdTime>
+<generatorID>421BE4F4-A74C-9F45-37A4-77CF3FEA006A</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>90A36A3B-4C86-4054-6879-06CF4E2E3133</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="4C384433-36E7-51DB-CDFF-3BC2FBE56872">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:34:55 UTC</createdTime>
+<generatorID>1E307749-4B01-1D04-D376-7645CF51BB80</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="858D7DD9-3E14-F804-B2F3-6A795067D8E2" name="Reproducciones PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:08 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>783BA6A9-2D19-FC11-6AA4-38A257171A5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D49889B-B491-0235-71CD-3534D7E9EE77" name="directores">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 19:38:41 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>DEA268FE-AE18-9321-B19A-6292B73E7D3F</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_director" id="44700950-4F88-2CDC-AF90-1321D431DA4C">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 19:38:41 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>B09DC860-3260-5B86-6919-0A5F3609BF80</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E560D042-7DE1-1DD8-5653-F1BB6D4A3F5C">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 19:38:41 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>292DA795-F3E3-3260-9580-D5D37218A8A4</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="0BCAA215-7780-0C2F-69A3-EAF60DE6C002">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 19:38:41 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>3C3E8D7D-8580-E182-2AF5-8D1C4EC87552</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="39A28395-C229-5831-382D-23CC0C8DBDB9">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 19:38:41 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>415358D1-CB4D-FA48-65AC-FD329AF6FB6D</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="7C9F073B-5FF8-E24A-9CB9-1BE3ACBD6EE4">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 19:38:41 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>DAD394BA-087C-6703-4550-708BD42E924D</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estilo" id="BB4EBBC3-74E7-3C57-B5F1-B7FBC6997BDB">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 19:38:41 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<importedID>603BDE1D-D51E-B53F-8E0D-BCAFCAA856AC</importedID>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0AE6C082-AA34-DAA0-5155-F713D013AE56" name="directores PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 20:05:19 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44700950-4F88-2CDC-AF90-1321D431DA4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

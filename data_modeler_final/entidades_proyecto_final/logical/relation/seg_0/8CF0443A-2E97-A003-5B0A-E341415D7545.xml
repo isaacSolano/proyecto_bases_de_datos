@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="almacenar" directorySegmentName="seg_0" id="47FE894A-7C62-AE06-BF8D-7E6479EDB66F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="preferir_cancion" directorySegmentName="seg_0" id="8CF0443A-2E97-A003-5B0A-E341415D7545">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 19:58:01 UTC</createdTime>
+<createdTime>2020-03-23 21:36:49 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
-<sourcePk>0AAF14EC-4B66-68DE-FE4B-44D74CE83185</sourcePk>
 <targetPk>42DE34D5-92E0-D195-4DA2-8E0458FC4A52</targetPk>
 <identifying>false</identifying>
-<nameOnSource>id_favorito</nameOnSource>
+<nameOnSource>id_cancion</nameOnSource>
+<nameOnTarget>id_cancion</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>00434C37-D452-7669-C2C5-8BB5033872DC</sourceEntity>
+<sourceEntity>E4F65E44-4C81-6447-4E60-02C4272837FE</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>2FBE2924-C9CB-0117-184A-7B22FFBFE57F</targetEntity>
 <transferable>true</transferable>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="conformar" directorySegmentName="seg_0" id="6D0FB4F6-25E7-5FDF-275D-866B2D303073">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 20:44:36 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>01C69F3E-22F0-8453-47E0-78B507109E4D</sourcePk>
+<targetPk>42F85F4F-7A02-9390-F36B-344B8C87A524</targetPk>
+<identifying>false</identifying>
+<nameOnSource>id_reparto</nameOnSource>
+<nameOnTarget>id_reparto</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>25A22201-2C66-17AE-5421-725E8DCD9567</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C6CBB318-AE2C-57B6-61E2-6C2B2CEA1D9D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

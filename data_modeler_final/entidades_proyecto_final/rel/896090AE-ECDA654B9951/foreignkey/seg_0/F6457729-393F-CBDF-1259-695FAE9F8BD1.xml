@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6457729-393F-CBDF-1259-695FAE9F8BD1" containerWithKeyObject="3A0A821A-2D73-5466-D0A3-4ABAB9E4019B" localFKIndex="02D87A18-9A52-E142-D2E0-EFDF0A9E5331" name="series_tv_directores_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>9E8AD584-E3E3-A5CA-AB29-FA0749A5732A</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>directores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C1A0D61-E0D0-7787-C6ED-2F605332DF1D</referredTableID>
+<keyObject>0B39F672-7971-E3F1-023E-4597E4E0ADF4</keyObject>
+<referredKeyID>0B39F672-7971-E3F1-023E-4597E4E0ADF4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_director</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

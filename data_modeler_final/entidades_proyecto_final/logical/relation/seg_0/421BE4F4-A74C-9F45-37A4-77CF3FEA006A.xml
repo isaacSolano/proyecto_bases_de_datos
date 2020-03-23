@@ -1,20 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="almacenarv2" directorySegmentName="seg_0" id="8342EF9F-AF33-63EE-B352-CFD1027844DE">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reproducir_cancion" directorySegmentName="seg_0" id="421BE4F4-A74C-9F45-37A4-77CF3FEA006A">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 20:02:23 UTC</createdTime>
+<createdTime>2020-03-23 21:32:53 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
-<sourcePk>04000B41-6C67-CB44-975D-CEF2443C8501</sourcePk>
 <targetPk>42DE34D5-92E0-D195-4DA2-8E0458FC4A52</targetPk>
 <identifying>false</identifying>
-<nameOnSource>id_reproduccion</nameOnSource>
+<nameOnSource>id_cancion</nameOnSource>
 <nameOnTarget>id_cancion</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>4D6C6F66-C01C-E8AD-A3DF-6CDD1E59E969</sourceEntity>
+<sourceEntity>D91B15E5-0774-C522-14BF-64531B8371FA</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>2FBE2924-C9CB-0117-184A-7B22FFBFE57F</targetEntity>
 <transferable>true</transferable>

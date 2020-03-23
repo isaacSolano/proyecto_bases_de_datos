@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00434C37-D452-7669-C2C5-8BB5033872DC" name="favoritos">
-<createdBy>Invitado</createdBy>
-<createdTime>2020-03-12 21:08:54 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4F65E44-4C81-6447-4E60-02C4272837FE" name="canciones_favoritas">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:16 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_favorito" id="537010AF-29D3-327D-5556-6208845A7802">
-<createdBy>Invitado</createdBy>
-<createdTime>2020-03-12 21:08:59 UTC</createdTime>
+<Attribute name="id_favorito" id="7B74AC35-0349-2E0B-5E37-9D9F80EB7FA2">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:16 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
@@ -25,12 +25,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="45055EF6-F1E6-A3A4-5A9F-4CB10A24B60F">
-<createdBy>Invitado</createdBy>
-<createdTime>2020-03-12 21:10:05 UTC</createdTime>
-<generatorID>EE67D2C4-4D39-7AE3-FE94-273A1AFA4167</generatorID>
+<Attribute name="id_usuario" id="AFBC55D8-BC3D-8DEF-20B6-C4A8975DDED6">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:36:26 UTC</createdTime>
+<generatorID>70C34BF9-8046-EF12-7C3C-361EB6491443</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
@@ -39,12 +40,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cancion" id="6CF2C588-7B93-6633-5567-E7E26E37868E">
+<Attribute name="id_cancion" id="AFB2D22E-05F8-B7CC-E88B-F753EA734DF5">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 19:58:41 UTC</createdTime>
-<generatorID>47FE894A-7C62-AE06-BF8D-7E6479EDB66F</generatorID>
+<createdTime>2020-03-23 21:37:06 UTC</createdTime>
+<generatorID>8CF0443A-2E97-A003-5B0A-E341415D7545</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
@@ -52,21 +54,23 @@
 <referedAttribute>90A36A3B-4C86-4054-6879-06CF4E2E3133</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0AAF14EC-4B66-68DE-FE4B-44D74CE83185" name="favoritos PK">
-<createdBy>Invitado</createdBy>
-<createdTime>2020-03-12 21:09:47 UTC</createdTime>
+<identifier id="6D2D0259-B603-7B5E-4449-709BB9B2EAE9" name="favoritos PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 21:28:16 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>537010AF-29D3-327D-5556-6208845A7802</attributeRef>
+<attributeRef>7B74AC35-0349-2E0B-5E37-9D9F80EB7FA2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

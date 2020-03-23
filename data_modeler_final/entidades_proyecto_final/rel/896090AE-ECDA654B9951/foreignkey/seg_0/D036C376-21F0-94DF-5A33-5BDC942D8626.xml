@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D036C376-21F0-94DF-5A33-5BDC942D8626" containerWithKeyObject="3A0A821A-2D73-5466-D0A3-4ABAB9E4019B" localFKIndex="A8D2E3D8-4DB5-2CE3-DF55-A9A6544E24E8" name="series_tv_reparto_FK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 22:10:49 UTC</createdTime>
+<generatorID>714F0846-6079-6E1B-F7F4-F183233208C4</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>reparto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8BCEAE7-9859-193B-6BD0-02295513D893</referredTableID>
+<keyObject>E9DBBFF7-D378-0465-0C52-F73A7E202F49</keyObject>
+<referredKeyID>E9DBBFF7-D378-0465-0C52-F73A7E202F49</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_reparto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

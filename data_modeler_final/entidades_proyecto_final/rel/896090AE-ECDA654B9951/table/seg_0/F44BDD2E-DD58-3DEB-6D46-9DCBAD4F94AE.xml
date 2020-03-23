@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F44BDD2E-DD58-3DEB-6D46-9DCBAD4F94AE" name="usuarios">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>3D37B082-3499-364E-8B0E-4F69F08FAA41</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="D32769E4-20EC-23D1-7B05-2D24AE4B7D53">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="96DF7582-8285-E0FE-F693-A8685B004A66">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>EB469034-3FAF-4F31-5C1D-4ECB8361F873</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="7554BAA2-ABB9-210E-6A83-35BD9CFEE91C">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>BA501464-D0A8-FD77-11CC-F044E9E4C5CF</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="854F931F-7F26-BB20-BF27-A00D7F2F1F02">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>12288612-8283-35DB-36E0-8A1C27AF206F</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac" id="90765F18-8152-3692-9AF3-9B6CC7934EF7">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>77C4AA18-F2AB-DF34-B748-F1871A2CED75</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="D6934938-4564-A5DF-53E9-D668E0810F52">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>6ED79103-D425-6C3C-EDC2-B6C0C677B791</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="5D03F0F7-5AD2-BEAA-7D9C-FF350C8C0856">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>F730786E-0189-40CE-56C4-AF8714179007</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CC29B1BF-190E-1E19-1F1A-5FD822C04974">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>124A44BF-6EC7-C7C3-C3CC-FFA4EE316045</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave_acceso" id="92B54510-724D-E0A4-F555-211F2AE92B10">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>E35478ED-DD12-2621-7430-8103EB5150FD</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesion" id="4C93027B-0A42-270F-F2A8-0375B6180B49">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>0024719C-0CC8-479E-42DF-FB9028F77BE3</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inclusion" id="0C30B11C-B5E6-420E-1863-434CE8139388">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>8118E38F-E35E-7190-5C07-B6569D249969</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4330C13-87B0-8026-23B2-EA5C23EB6F3A" name="usuarios_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 17:39:05 UTC</createdTime>
+<generatorID>FC3234A6-740D-1259-A249-30B67154F898</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D32769E4-20EC-23D1-7B05-2D24AE4B7D53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,9 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E290AA5-E4F1-3C61-182A-285884BDA92D" name="sagas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73230406-6B0D-B7ED-D1EB-CE641C0A2A41" name="saga_serie_tv">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<importedID>EDFE67E7-BE5C-487A-D15D-3F0BC03C747B</importedID>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
@@ -16,38 +15,36 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="61FAC079-4D4C-996C-6832-0D48AF8BDAA8">
+<Attribute name="id_saga" id="FA8F4530-F78B-FC2C-2F9B-D377441C1D03">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<importedID>762D5BFD-9836-4784-23D1-29BB3EC82A9A</importedID>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="titulo" id="6E3F8BE1-6149-ED1B-70F8-8853914DFF19">
+<Attribute name="titulo" id="8B9BE6E6-FF5D-2811-71F7-973849282FD4">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<importedID>D5A271F6-0116-A70B-A40D-A2F6C5CC0E8C</importedID>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="anno" id="41B1D281-A908-BDE2-4504-7D1FA08DFF8A">
+<Attribute name="anno" id="089751EF-CF49-A03C-7595-1023BD5D55AB">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<importedID>E3783EE6-5B67-15E5-C800-2A00F7BD4C63</importedID>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
@@ -56,47 +53,60 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="categoria" id="1AE36B0C-D06C-70D9-063E-5964083B6360">
+<Attribute name="categoria" id="6F51A637-285A-EA58-20B9-9923A788BD9C">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<importedID>B29C9CE3-E69F-393D-E1D9-375944F4F6D5</importedID>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="genero" id="EC0478ED-FFB2-DEFD-0ED7-A00D34B85FBC">
+<Attribute name="genero" id="0F88E10A-1C7D-D3E8-BF2A-BDA219799563">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<importedID>D24BD9CE-0FC9-D07F-47E3-77A4575676F0</importedID>
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_serie_tv" id="55156D62-AC5C-1F86-A7A3-05F965060A01">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-23 20:59:32 UTC</createdTime>
+<generatorID>E806DA7B-E34A-7624-C49E-E6DD10A25CC0</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>944109A2-AA42-0294-58C3-7C40308F5B05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9404CB4A-BFEA-5730-8C44-C0E765101AD7" name="sagas PK">
+<identifier id="03AC8004-6CBC-2EE3-6095-FA8CBEBEBB87" name="sagas PK">
 <createdBy>dev__</createdBy>
-<createdTime>2020-03-22 17:52:55 UTC</createdTime>
+<createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<importedID>6F764CA6-990B-9BA0-DAFF-F077739E9C38</importedID>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>61FAC079-4D4C-996C-6832-0D48AF8BDAA8</attributeRef>
+<attributeRef>FA8F4530-F78B-FC2C-2F9B-D377441C1D03</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
