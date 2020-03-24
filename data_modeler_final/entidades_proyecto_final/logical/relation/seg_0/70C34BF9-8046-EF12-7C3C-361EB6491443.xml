@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>FC3234A6-740D-1259-A249-30B67154F898</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>id_usuario</nameOnSource>
-<nameOnTarget>id_usuario</nameOnTarget>
+<nameOnSource>idusuario</nameOnSource>
+<nameOnTarget>idusuario</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

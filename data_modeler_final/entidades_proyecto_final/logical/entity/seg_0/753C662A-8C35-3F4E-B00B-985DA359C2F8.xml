@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="753C662A-8C35-3F4E-B00B-985DA359C2F8" name="repartosserie">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:00:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idrepartoserie" id="A3A260CC-85FB-F477-C610-82DD887ECB8B">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:00:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idserie" id="CE2CCF98-B2F3-D849-F656-5C6496AB79BF">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:02:39 UTC</createdTime>
+<generatorID>AA4B0E05-6B40-1D4F-51DE-5BE1260FD7B8</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>944109A2-AA42-0294-58C3-7C40308F5B05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idactor" id="609C5246-D7FF-DF06-A1BD-223700912CFA">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:05:27 UTC</createdTime>
+<generatorID>C32ECF0D-0C0D-79DC-3E6B-53D1D8D9AB34</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>C8460501-DDF6-C960-D86E-44D844BAC157</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA25185A-86ED-29D7-806A-9C38A222DF67" name="repartosserie PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:00:55 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3A260CC-85FB-F477-C610-82DD887ECB8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

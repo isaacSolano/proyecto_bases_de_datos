@@ -116,7 +116,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5FADC721-3667-3AE7-4E3D-747F1F29DC08" name="formas_pago PK">
+<identifier id="5FADC721-3667-3AE7-4E3D-747F1F29DC08" name="formaspago PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

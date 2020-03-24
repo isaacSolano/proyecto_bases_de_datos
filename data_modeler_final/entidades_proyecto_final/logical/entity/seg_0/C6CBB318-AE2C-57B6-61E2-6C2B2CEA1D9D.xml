@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6CBB318-AE2C-57B6-61E2-6C2B2CEA1D9D" name="repartos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6CBB318-AE2C-57B6-61E2-6C2B2CEA1D9D" name="repartospelicula">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idreparto" id="C0B4B455-FFCB-B225-3F98-E3D08892066D">
+<Attribute name="idrepartopelicula" id="C0B4B455-FFCB-B225-3F98-E3D08892066D">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -30,9 +30,39 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idpelicula" id="CA05DFA9-A1C6-61E4-4F5B-66431914AD97">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 15:47:15 UTC</createdTime>
+<generatorID>44381F16-0D4D-6310-7395-3C6F234D7B99</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>98C38D83-51A8-4762-EED7-5C1543CBD877</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idactor" id="BF2737CD-860D-6306-0AF3-03153F3CFEF4">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 15:48:44 UTC</createdTime>
+<generatorID>88A9937A-DB51-4F95-23EC-917C4D348CC5</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>C8460501-DDF6-C960-D86E-44D844BAC157</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="42F85F4F-7A02-9390-F36B-344B8C87A524" name="Reparto PK">
+<identifier id="42F85F4F-7A02-9390-F36B-344B8C87A524" name="repartospelicula PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 20:30:40 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>0AE6C082-AA34-DAA0-5155-F713D013AE56</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>id_director</nameOnSource>
-<nameOnTarget>id_director</nameOnTarget>
+<nameOnSource>iddirector</nameOnSource>
+<nameOnTarget>iddirector</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -60,12 +60,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9B73FDE0-DC95-0E63-2A28-44331632DDA2" name="favoritos PK">
+<identifier id="9B73FDE0-DC95-0E63-2A28-44331632DDA2" name="preferenciasserie PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:46:27 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

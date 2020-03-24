@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>27967F9C-D12D-01AD-D04A-D6A4984CC4C1</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>id_serie_tv</nameOnSource>
-<nameOnTarget>id_serie_tv</nameOnTarget>
+<nameOnSource>idserie</nameOnSource>
+<nameOnTarget>idserie</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

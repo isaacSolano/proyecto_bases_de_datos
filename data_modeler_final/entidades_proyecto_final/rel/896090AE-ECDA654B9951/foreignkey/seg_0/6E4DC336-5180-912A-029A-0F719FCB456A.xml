@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E4DC336-5180-912A-029A-0F719FCB456A" containerWithKeyObject="01C09C34-A5E6-9D83-C51C-2542F7F61939" localFKIndex="BF9C56F5-3404-DD04-C23A-9C321A11115C" name="reparser_ser">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>AA4B0E05-6B40-1D4F-51DE-5BE1260FD7B8</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>series</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19CECD78-9FA9-5E24-E19F-BE731B5B68A0</referredTableID>
+<keyObject>56281FE1-D975-1DC6-EEFF-C3F3F6661095</keyObject>
+<referredKeyID>56281FE1-D975-1DC6-EEFF-C3F3F6661095</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idserie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

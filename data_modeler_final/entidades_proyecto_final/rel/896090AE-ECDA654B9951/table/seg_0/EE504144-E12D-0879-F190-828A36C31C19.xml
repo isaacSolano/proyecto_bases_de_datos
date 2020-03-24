@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE504144-E12D-0879-F190-828A36C31C19" name="produccionpelicula">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>B8B80506-655F-DFE3-C1A0-426B024F3F88</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idproduccion" id="7C2CD855-5D2F-0696-7CA5-D1F8A6478F92">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>D39F3D51-C66F-DAE5-1D5F-EDB9C6FAEAD1</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idproductor" id="B1EE7A07-D49C-6BEF-3566-CCC1C1A8BF3F">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>033FAA21-6701-DBB2-5FB3-CF0E0A2B7454</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5223BD4C-F2A5-7397-58FC-ED816F4DFC64" referredColumn="6784CD2A-1522-B0B3-E3AD-0A4D5C5C6DFF"/>
+</associations>
+</Column>
+<Column name="idpelicula" id="5C4D7EF3-BBD0-1344-DE70-0886306F0A59">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>A9ECD5BA-B3F7-DCB4-AAD9-3EAA96A02BA3</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7602776D-3637-BD89-548D-16E9A8BE171C" referredColumn="413570CE-66ED-A8E1-9011-3F4434116D9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="091001D9-2AB3-4015-0704-531CAE031A7F" name="produccionpelicula_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>1F89422C-3DE0-8461-8714-FDE882DDB4A3</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C2CD855-5D2F-0696-7CA5-D1F8A6478F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6749D509-2F8F-E0A4-6F04-675BC27009C8" name="prodpel_pel">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>D05B3740-67EE-DCD9-C917-A97329703964</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4D7EF3-BBD0-1344-DE70-0886306F0A59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5D79648-74AE-F455-EE7D-F8A458F06D7C" name="prodpel_prod">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>C902F8DC-5056-D899-CE43-FE8C6E0AD119</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1EE7A07-D49C-6BEF-3566-CCC1C1A8BF3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

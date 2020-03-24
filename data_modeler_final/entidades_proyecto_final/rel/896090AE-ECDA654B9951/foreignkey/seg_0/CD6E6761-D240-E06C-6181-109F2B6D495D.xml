@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD6E6761-D240-E06C-6181-109F2B6D495D" containerWithKeyObject="C025E68D-BAA4-7D80-0AE1-B8C30877135F" localFKIndex="2BFE8CCD-F16F-F2A9-3DAD-31A2374B7F99" name="can_mus">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>D7EFD7DD-6027-E640-4891-EC82696428AF</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>musicos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D20DAD22-0803-C5F9-4C7E-027B6C26A614</referredTableID>
+<keyObject>2BAAF502-C64A-F5F8-FC26-B5B388E0539F</keyObject>
+<referredKeyID>2BAAF502-C64A-F5F8-FC26-B5B388E0539F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idmusico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

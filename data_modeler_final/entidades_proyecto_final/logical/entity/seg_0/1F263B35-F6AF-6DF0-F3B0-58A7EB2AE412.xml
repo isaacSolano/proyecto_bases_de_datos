@@ -98,12 +98,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1EE3EFD0-3F74-FC01-304A-C08E9D6FF5A5" name="descargas_pelicula PK">
+<identifier id="1EE3EFD0-3F74-FC01-304A-C08E9D6FF5A5" name="descargaspelicula PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:41:35 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="actreppel" directorySegmentName="seg_0" id="88A9937A-DB51-4F95-23EC-917C4D348CC5">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 15:47:43 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>42F85F4F-7A02-9390-F36B-344B8C87A524</sourcePk>
+<targetPk>40FDA2BA-04FE-B353-3FCE-2B9D28F51D13</targetPk>
+<identifying>false</identifying>
+<nameOnSource>idactor</nameOnSource>
+<nameOnTarget>idactor</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C6CBB318-AE2C-57B6-61E2-6C2B2CEA1D9D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2114FE5B-6935-70E4-4498-CD4DE7924756</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -96,7 +96,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="03AC8004-6CBC-2EE3-6095-FA8CBEBEBB87" name="sagas PK">
+<identifier id="03AC8004-6CBC-2EE3-6095-FA8CBEBEBB87" name="sagaserie PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 20:58:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

@@ -9,13 +9,13 @@
 <sourcePk>2D1CB518-E1A8-A206-7285-330EDF0FBB90</sourcePk>
 <targetPk>42F85F4F-7A02-9390-F36B-344B8C87A524</targetPk>
 <identifying>false</identifying>
-<nameOnSource>id_pelicula</nameOnSource>
-<nameOnTarget>id_pelicula</nameOnTarget>
+<nameOnSource>idpelicula</nameOnSource>
+<nameOnTarget>idpelicula</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>49D70B4C-281B-9FC0-9B5C-13FB4FAE6462</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>C6CBB318-AE2C-57B6-61E2-6C2B2CEA1D9D</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

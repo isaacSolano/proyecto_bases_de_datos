@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="serrep" directorySegmentName="seg_0" id="AA4B0E05-6B40-1D4F-51DE-5BE1260FD7B8">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:02:39 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>27967F9C-D12D-01AD-D04A-D6A4984CC4C1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>idserie</nameOnSource>
+<nameOnTarget>idserie</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18B5B0EE-DD7E-DC19-0DC0-4312054691B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>753C662A-8C35-3F4E-B00B-985DA359C2F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

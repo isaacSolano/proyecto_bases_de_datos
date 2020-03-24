@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pelprod" directorySegmentName="seg_0" id="D05B3740-67EE-DCD9-C917-A97329703964">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:42:30 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<sourcePk>2D1CB518-E1A8-A206-7285-330EDF0FBB90</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>idpelicula</nameOnSource>
+<nameOnTarget>idpelidula</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49D70B4C-281B-9FC0-9B5C-13FB4FAE6462</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8B80506-655F-DFE3-C1A0-426B024F3F88</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

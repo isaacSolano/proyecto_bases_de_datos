@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E548822-0C49-EAB4-7AF1-CAFE435A0FC9" containerWithKeyObject="CD42F8C2-A813-83CD-7F64-26A7956DE852" localFKIndex="7BA5DE44-4E1A-9AB4-2D68-9EB428539D1F" name="prodser_prod">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>E18231FA-9D76-5FC9-072D-E7C45927D48B</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>productores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>391C73E1-7E2D-E775-3226-362946010DEF</referredTableID>
+<keyObject>BA96F6CD-8D4A-1D70-468A-555DEBAE4FFD</keyObject>
+<referredKeyID>BA96F6CD-8D4A-1D70-468A-555DEBAE4FFD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idproductor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

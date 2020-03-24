@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="408D0DA3-D51E-6C4F-C437-1B158D2E5273" name="preferenciascanciones">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>E4F65E44-4C81-6447-4E60-02C4272837FE</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idpreferencia" id="1F9128EA-B924-5D29-05FF-A90552E745D5">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>7B74AC35-0349-2E0B-5E37-9D9F80EB7FA2</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idusuario" id="8E95F06B-5ADA-DCFA-CCA3-B5FE2D1AC264">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>AFBC55D8-BC3D-8DEF-20B6-C4A8975DDED6</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F232A2F0-C72E-3C63-881C-3B31FE281D8E" referredColumn="3EDFB7CD-82B0-662F-04BD-8DEDA1C3C570"/>
+</associations>
+</Column>
+<Column name="idcancion" id="3ED5BC6D-2ADB-A20B-A345-5FA20A969970">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>AFB2D22E-05F8-B7CC-E88B-F753EA734DF5</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB379169-323E-DE7D-303B-1E61C585BD45" referredColumn="FD85F5CF-EF2C-8B37-474C-2699B35DA0FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C2C6A58-C87A-3D80-0CD5-BF4852D1DD2B" name="preferenciascanciones_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>6D2D0259-B603-7B5E-4449-709BB9B2EAE9</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F9128EA-B924-5D29-05FF-A90552E745D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90CC2CAE-A32C-9D7B-9292-AC4F392F1AB3" name="prefcan_can">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>8CF0443A-2E97-A003-5B0A-E341415D7545</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ED5BC6D-2ADB-A20B-A345-5FA20A969970"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="598B6FC3-C6A5-93B8-8981-3A0A777C1955" name="prefcan_usu">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>70C34BF9-8046-EF12-7C3C-361EB6491443</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E95F06B-5ADA-DCFA-CCA3-B5FE2D1AC264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

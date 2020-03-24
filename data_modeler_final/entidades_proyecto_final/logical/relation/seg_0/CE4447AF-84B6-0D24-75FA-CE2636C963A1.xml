@@ -9,6 +9,8 @@
 </engineerTo>
 <sourcePk>DAEA5E29-AE3C-C8EF-5891-CAF524A8D1C5</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>idproductor</nameOnSource>
+<nameOnTarget>idproductor</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

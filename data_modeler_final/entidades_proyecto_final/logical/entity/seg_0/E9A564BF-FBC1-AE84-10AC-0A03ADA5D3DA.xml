@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9A564BF-FBC1-AE84-10AC-0A03ADA5D3DA" name="produccionseries">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:43:54 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idproduccion" id="FAA6ACF9-5C93-98C1-BA54-E47380653BC3">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:44:06 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idproductor" id="C25C3C1C-D2C1-F505-0491-0F96C1466BAC">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:44:58 UTC</createdTime>
+<generatorID>E18231FA-9D76-5FC9-072D-E7C45927D48B</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>67C12D9C-7D2F-ABBC-3A7E-ABF844587A89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idserie" id="EED9188B-3775-4156-3645-DAF5DF5DD08F">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 16:45:49 UTC</createdTime>
+<generatorID>293D0E42-BF51-2941-1A06-13FDC61C9C3B</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<referedAttribute>944109A2-AA42-0294-58C3-7C40308F5B05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F4A4F42-973B-4298-71A9-597AE057BA46" name="produccionseries PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:54:56 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<engineerTo>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FAA6ACF9-5C93-98C1-BA54-E47380653BC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B82FB2D9-E3C7-4085-EAFD-D89CEAE0F1AB" containerWithKeyObject="D14F3B48-4CE3-4CD0-F1AD-8EA89973C372" localFKIndex="B0B7D965-C76F-F170-E69F-013B83CE531F" name="reprodpel_pel">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>DB288167-1A53-AEC1-617E-F0F675365595</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>peliculas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>012842DE-C8AB-A4DB-EE1B-631867C6FB79</referredTableID>
+<keyObject>ABDB93B3-F018-33A0-C5AC-BB8E6DA3A5D7</keyObject>
+<referredKeyID>ABDB93B3-F018-33A0-C5AC-BB8E6DA3A5D7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idpelicula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

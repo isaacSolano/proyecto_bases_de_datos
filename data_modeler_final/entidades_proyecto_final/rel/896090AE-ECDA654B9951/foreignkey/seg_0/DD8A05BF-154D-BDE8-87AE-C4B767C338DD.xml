@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD8A05BF-154D-BDE8-87AE-C4B767C338DD" containerWithKeyObject="8C543C3A-BD96-C894-B703-002EFBF09C70" localFKIndex="CFB007DC-D131-9812-60C0-C1BFE9F2D4EA" name="reparpel_act">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>88A9937A-DB51-4F95-23EC-917C4D348CC5</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<referredTableLongName>actores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A351EB8C-39A2-E604-A13E-7EC191C7E9EB</referredTableID>
+<keyObject>5B5C7DC5-D10D-A7A4-95F3-47527157B2F6</keyObject>
+<referredKeyID>5B5C7DC5-D10D-A7A4-95F3-47527157B2F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idactor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -8,8 +8,8 @@
 </engineerTo>
 <targetPk>42DE34D5-92E0-D195-4DA2-8E0458FC4A52</targetPk>
 <identifying>false</identifying>
-<nameOnSource>id_cancion</nameOnSource>
-<nameOnTarget>id_cancion</nameOnTarget>
+<nameOnSource>idcancion</nameOnSource>
+<nameOnTarget>idcancion</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

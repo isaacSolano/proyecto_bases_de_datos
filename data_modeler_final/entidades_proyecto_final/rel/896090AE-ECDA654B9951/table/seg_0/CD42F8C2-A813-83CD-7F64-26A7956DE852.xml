@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD42F8C2-A813-83CD-7F64-26A7956DE852" name="produccionseries">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>E9A564BF-FBC1-AE84-10AC-0A03ADA5D3DA</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idproduccion" id="4D49C458-A2AA-FA29-EF3B-A4F0F3C852B8">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>FAA6ACF9-5C93-98C1-BA54-E47380653BC3</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idproductor" id="D0639A4A-DF07-3269-ACE9-BEE39B8D8D3C">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>C25C3C1C-D2C1-F505-0491-0F96C1466BAC</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E548822-0C49-EAB4-7AF1-CAFE435A0FC9" referredColumn="6784CD2A-1522-B0B3-E3AD-0A4D5C5C6DFF"/>
+</associations>
+</Column>
+<Column name="idserie" id="F87DCBEE-2280-7487-6E5F-5063BB842822">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>EED9188B-3775-4156-3645-DAF5DF5DD08F</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93A5DEDE-A0C4-C75D-58AF-5A387FDD133D" referredColumn="210B81C3-E75B-AC75-5D9E-37C35C20AF4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="023182F7-5F77-7DBD-74AC-952B5724CB1A" name="produccionseries_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:55:11 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D49C458-A2AA-FA29-EF3B-A4F0F3C852B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BA5DE44-4E1A-9AB4-2D68-9EB428539D1F" name="prodser_prod">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>E18231FA-9D76-5FC9-072D-E7C45927D48B</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0639A4A-DF07-3269-ACE9-BEE39B8D8D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7F50A65-88C5-1668-3148-8212748DE6CA" name="prodser_ser">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>293D0E42-BF51-2941-1A06-13FDC61C9C3B</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F87DCBEE-2280-7487-6E5F-5063BB842822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

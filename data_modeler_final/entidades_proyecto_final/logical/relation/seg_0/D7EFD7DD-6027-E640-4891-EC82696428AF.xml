@@ -7,9 +7,10 @@
 <engineerTo>
 <item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
-<sourcePk>42DE34D5-92E0-D195-4DA2-8E0458FC4A52</sourcePk>
 <targetPk>A12E90E0-F0AF-25F3-AACA-C3B090E354DF</targetPk>
 <identifying>false</identifying>
+<nameOnSource>idmusico</nameOnSource>
+<nameOnTarget>idmusico</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

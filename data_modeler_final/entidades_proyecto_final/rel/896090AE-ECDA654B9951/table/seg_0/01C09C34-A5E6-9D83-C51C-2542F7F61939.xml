@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01C09C34-A5E6-9D83-C51C-2542F7F61939" name="repartosserie">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>753C662A-8C35-3F4E-B00B-985DA359C2F8</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idrepartoserie" id="4306B3F9-69CD-5684-5AB4-91F1D21F5FCF">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>A3A260CC-85FB-F477-C610-82DD887ECB8B</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idserie" id="719BCC1A-348E-1CA8-81A8-EDC0B74376D7">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>CE2CCF98-B2F3-D849-F656-5C6496AB79BF</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E4DC336-5180-912A-029A-0F719FCB456A" referredColumn="210B81C3-E75B-AC75-5D9E-37C35C20AF4F"/>
+</associations>
+</Column>
+<Column name="idactor" id="CD93392E-E367-E877-99B6-0500C1CC9A60">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>609C5246-D7FF-DF06-A1BD-223700912CFA</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="089121F2-B7EA-A619-288F-038E9C0F897C" referredColumn="30B1FB78-1848-0D78-8786-78588B6897FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06E8B3F8-8972-0520-CFED-C0D79E3452BD" name="repartosserie_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>EA25185A-86ED-29D7-806A-9C38A222DF67</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4306B3F9-69CD-5684-5AB4-91F1D21F5FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05AE7880-7890-0B80-C5B3-42849040FC33" name="reparser_act">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>C32ECF0D-0C0D-79DC-3E6B-53D1D8D9AB34</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD93392E-E367-E877-99B6-0500C1CC9A60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF9C56F5-3404-DD04-C23A-9C321A11115C" name="reparser_ser">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 17:22:47 UTC</createdTime>
+<generatorID>AA4B0E05-6B40-1D4F-51DE-5BE1260FD7B8</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="719BCC1A-348E-1CA8-81A8-EDC0B74376D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

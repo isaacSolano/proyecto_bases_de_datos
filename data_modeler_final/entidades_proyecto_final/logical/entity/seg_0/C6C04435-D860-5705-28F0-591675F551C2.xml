@@ -102,7 +102,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A12E90E0-F0AF-25F3-AACA-C3B090E354DF" name="productor PK">
+<identifier id="A12E90E0-F0AF-25F3-AACA-C3B090E354DF" name="musicos PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
