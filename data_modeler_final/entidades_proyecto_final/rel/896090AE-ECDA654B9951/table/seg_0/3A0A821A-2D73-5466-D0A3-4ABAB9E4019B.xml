@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A0A821A-2D73-5466-D0A3-4ABAB9E4019B" name="series_tv">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A0A821A-2D73-5466-D0A3-4ABAB9E4019B" name="series">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>18B5B0EE-DD7E-DC19-0DC0-4312054691B1</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_serie_tv" id="2DCBE73A-B114-A555-B130-F64AEC132A7E">
+<Column name="idserie" id="2DCBE73A-B114-A555-B130-F64AEC132A7E">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>944109A2-AA42-0294-58C3-7C40308F5B05</generatorID>
@@ -127,7 +127,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="directores_id_director" id="F70545A3-9F0C-F413-B4FB-3DF4F0D91AC2">
+<Column name="iddirector" id="F70545A3-9F0C-F413-B4FB-3DF4F0D91AC2">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>299A5495-5366-59DF-8BFA-5D032E7484C5</generatorID>
@@ -143,7 +143,7 @@
 <colAssociation fkAssociation="F6457729-393F-CBDF-1259-695FAE9F8BD1" referredColumn="FA962F0C-6FEB-0E8C-D5E6-12BEE3DBC426"/>
 </associations>
 </Column>
-<Column name="reparto_id_reparto" id="74628CA0-6910-DAA5-7934-7C5FBB15A06B">
+<Column name="idreparto" id="74628CA0-6910-DAA5-7934-7C5FBB15A06B">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>B08C11C3-40A4-7D99-D036-D0352C8CF9DC</generatorID>
@@ -162,7 +162,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5902D388-1662-6932-61FA-C563F74D36EF" name="series_tv_PK">
+<ind_PK_UK id="5902D388-1662-6932-61FA-C563F74D36EF" name="series_PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>27967F9C-D12D-01AD-D04A-D6A4984CC4C1</generatorID>
@@ -174,7 +174,7 @@
 <colUsage columnID="2DCBE73A-B114-A555-B130-F64AEC132A7E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="02D87A18-9A52-E142-D2E0-EFDF0A9E5331" name="series_tv_directores_FK">
+<ind_PK_UK id="02D87A18-9A52-E142-D2E0-EFDF0A9E5331" name="ser_dir">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>9E8AD584-E3E3-A5CA-AB29-FA0749A5732A</generatorID>
@@ -185,7 +185,7 @@
 <colUsage columnID="F70545A3-9F0C-F413-B4FB-3DF4F0D91AC2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A8D2E3D8-4DB5-2CE3-DF55-A9A6544E24E8" name="series_tv_reparto_FK">
+<ind_PK_UK id="A8D2E3D8-4DB5-2CE3-DF55-A9A6544E24E8" name="ser_repart">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>714F0846-6079-6E1B-F7F4-F183233208C4</generatorID>

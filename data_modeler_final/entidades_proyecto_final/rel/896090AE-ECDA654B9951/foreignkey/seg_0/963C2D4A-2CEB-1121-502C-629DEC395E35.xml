@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="963C2D4A-2CEB-1121-502C-629DEC395E35" containerWithKeyObject="C3A89F17-3297-3FA2-6483-458003315742" localFKIndex="AAFDB517-06C8-81B2-E20B-8E4A6395A74D" name="participaciones_reparto_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="963C2D4A-2CEB-1121-502C-629DEC395E35" containerWithKeyObject="C3A89F17-3297-3FA2-6483-458003315742" localFKIndex="AAFDB517-06C8-81B2-E20B-8E4A6395A74D" name="part_repart">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>6D0FB4F6-25E7-5FDF-275D-866B2D303073</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<referredTableLongName>reparto</referredTableLongName>
+<referredTableLongName>repartos</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>A8BCEAE7-9859-193B-6BD0-02295513D893</referredTableID>
 <keyObject>E9DBBFF7-D378-0465-0C52-F73A7E202F49</keyObject>
 <referredKeyID>E9DBBFF7-D378-0465-0C52-F73A7E202F49</referredKeyID>
 <mandatory>false</mandatory>
-<refColNames>id_reparto</refColNames>
+<refColNames>idreparto</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

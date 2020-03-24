@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F11CDC5-39CF-42A8-0BF8-03C6F9605DE7" name="reproducciones_pelicula">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F11CDC5-39CF-42A8-0BF8-03C6F9605DE7" name="reproduccionespelicula">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>87C8C797-EFD3-3D8E-3B60-D16EB56E39EA</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<ordsAlias>repro_pel</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_reproduccion" id="9F7204A5-CD42-C0EC-5FF6-939DE998EBEF">
+<Column name="idreproduccion" id="9F7204A5-CD42-C0EC-5FF6-939DE998EBEF">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>ADDB6A85-5CB1-44D7-C10C-2EF93C43EDF0</generatorID>
@@ -20,7 +21,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_inicio" id="636FC82F-7633-4ABC-4B49-0E54168FA2AE">
+<Column name="fechaini" id="636FC82F-7633-4ABC-4B49-0E54168FA2AE">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>6F71F7A4-19EB-E258-09DC-9FBA6D0EB466</generatorID>
@@ -31,7 +32,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estado_actual" id="2897859D-BB99-DAF4-168E-2558A4746D48">
+<Column name="estado" id="2897859D-BB99-DAF4-168E-2558A4746D48">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>DF1FBB57-B979-70F4-1438-0DE9534752F5</generatorID>
@@ -43,7 +44,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cant_reproducciones" id="5B31C9B0-87BE-E224-3D8B-34483EF641FF">
+<Column name="cantidad" id="5B31C9B0-87BE-E224-3D8B-34483EF641FF">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>971E9274-FDDC-EA27-60AC-82F029A2118D</generatorID>
@@ -55,7 +56,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="peliculas_id_pelicula" id="C3935C7F-87B6-77CE-1F85-36A0EAD07501">
+<Column name="idpelicula" id="C3935C7F-87B6-77CE-1F85-36A0EAD07501">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>17649A22-8543-7ED7-20C2-193486CD2E53</generatorID>
@@ -71,7 +72,7 @@
 <colAssociation fkAssociation="B8FA9D05-1923-96E0-663E-8B16B31B7739" referredColumn="A1759EAF-EE19-32DC-C01B-E4F551C6462C"/>
 </associations>
 </Column>
-<Column name="usuarios_id_usuario" id="FCF2A7A6-B1BA-633F-D4FD-9A831C4CDFC6">
+<Column name="idusuario" id="FCF2A7A6-B1BA-633F-D4FD-9A831C4CDFC6">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>E1D55E49-7588-F64A-41DC-86527637A6A3</generatorID>
@@ -89,7 +90,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A773999A-BF75-9FB7-0498-F21E39AA5902" name="reproducciones_pelicula_PK">
+<ind_PK_UK id="A773999A-BF75-9FB7-0498-F21E39AA5902" name="reproduccionespelicula_PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>BB7C33D5-12BD-AC31-145F-EE923BADBC84</generatorID>
@@ -101,7 +102,7 @@
 <colUsage columnID="9F7204A5-CD42-C0EC-5FF6-939DE998EBEF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A457ECEC-F91B-1D06-F3D7-AF21F75F7E73" name="reproducciones_pelicula_usuarios_FK">
+<ind_PK_UK id="A457ECEC-F91B-1D06-F3D7-AF21F75F7E73" name="reprodpel_usu">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>1F1544B3-6801-D4FB-4CAD-962AF3EDE155</generatorID>
@@ -112,7 +113,7 @@
 <colUsage columnID="FCF2A7A6-B1BA-633F-D4FD-9A831C4CDFC6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FBF5FF27-B464-5047-8A95-9D4F9C8A2001" name="reproducciones_pelicula_peliculas_FK">
+<ind_PK_UK id="FBF5FF27-B464-5047-8A95-9D4F9C8A2001" name="reprodpel_pel">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>DB288167-1A53-AEC1-617E-F0F675365595</generatorID>

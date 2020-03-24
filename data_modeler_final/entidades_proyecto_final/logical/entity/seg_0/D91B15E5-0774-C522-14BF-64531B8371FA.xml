@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D91B15E5-0774-C522-14BF-64531B8371FA" name="reproducciones_canciones">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D91B15E5-0774-C522-14BF-64531B8371FA" name="reproducionescanciones">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:28:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_reproduccion" id="783BA6A9-2D19-FC11-6AA4-38A257171A5F">
+<Attribute name="idreproduccion" id="783BA6A9-2D19-FC11-6AA4-38A257171A5F">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:28:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_inicio" id="B37B58AF-C2D7-A314-8237-41209376C075">
+<Attribute name="fechaini" id="B37B58AF-C2D7-A314-8237-41209376C075">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:28:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado_actual" id="966636A0-14AB-E5F0-9281-1B7AFA601253">
+<Attribute name="estado" id="966636A0-14AB-E5F0-9281-1B7AFA601253">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:28:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cant_reproducciones" id="F1B901DC-815A-6898-6A9C-06CFA5FA2A51">
+<Attribute name="cantidad" id="F1B901DC-815A-6898-6A9C-06CFA5FA2A51">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:28:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -66,7 +66,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cancion" id="0BE0FFDD-EB5F-6CFD-6AE2-70765EEF35B8">
+<Attribute name="idcancion" id="0BE0FFDD-EB5F-6CFD-6AE2-70765EEF35B8">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:34:27 UTC</createdTime>
 <generatorID>421BE4F4-A74C-9F45-37A4-77CF3FEA006A</generatorID>
@@ -81,7 +81,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="4C384433-36E7-51DB-CDFF-3BC2FBE56872">
+<Attribute name="idusuario" id="4C384433-36E7-51DB-CDFF-3BC2FBE56872">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:34:55 UTC</createdTime>
 <generatorID>1E307749-4B01-1D04-D376-7645CF51BB80</generatorID>
@@ -102,9 +102,8 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:28:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F1FFB48-7FEE-5857-94FA-BD333976132C" name="musico">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F1FFB48-7FEE-5857-94FA-BD333976132C" name="musicos">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>C6C04435-D860-5705-28F0-591675F551C2</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_musico" id="25192256-04CB-4EAF-7202-0B7D8FC17F7A">
+<Column name="idmusico" id="25192256-04CB-4EAF-7202-0B7D8FC17F7A">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>365CA7A2-B9A4-CBD5-2532-1992471AB811</generatorID>
@@ -82,7 +82,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3BC0DEF4-CC56-9341-1C03-C16D7774FBA4" name="musico_PK">
+<ind_PK_UK id="3BC0DEF4-CC56-9341-1C03-C16D7774FBA4" name="musicos_PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>A12E90E0-F0AF-25F3-AACA-C3B090E354DF</generatorID>

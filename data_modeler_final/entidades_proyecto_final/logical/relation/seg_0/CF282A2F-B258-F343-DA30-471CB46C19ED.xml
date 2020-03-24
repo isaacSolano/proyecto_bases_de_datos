@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="descargar_series_tv" directorySegmentName="seg_0" id="CF282A2F-B258-F343-DA30-471CB46C19ED">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="despel" directorySegmentName="seg_0" id="CF282A2F-B258-F343-DA30-471CB46C19ED">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:51:02 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -8,8 +8,8 @@
 </engineerTo>
 <targetPk>2D1CB518-E1A8-A206-7285-330EDF0FBB90</targetPk>
 <identifying>false</identifying>
-<nameOnSource>id_pelicula</nameOnSource>
-<nameOnTarget>id_pelicula</nameOnTarget>
+<nameOnSource>idpelicula</nameOnSource>
+<nameOnTarget>idpelicula</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

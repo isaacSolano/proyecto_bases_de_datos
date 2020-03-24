@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34DE594F-0B9A-91B2-8A18-321E22F149C5" containerWithKeyObject="CB3CCAC9-216C-92A6-865E-6858027B0145" localFKIndex="1516B7E2-7F46-097C-1721-BB19F4AE507F" name="descargas_series_tv_series_tv_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34DE594F-0B9A-91B2-8A18-321E22F149C5" containerWithKeyObject="CB3CCAC9-216C-92A6-865E-6858027B0145" localFKIndex="1516B7E2-7F46-097C-1721-BB19F4AE507F" name="descarser_ser">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>413A3068-B2EA-ACEE-A9B4-1284A7483B22</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<referredTableLongName>series_tv</referredTableLongName>
+<referredTableLongName>series</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>3A0A821A-2D73-5466-D0A3-4ABAB9E4019B</referredTableID>
 <keyObject>5902D388-1662-6932-61FA-C563F74D36EF</keyObject>
 <referredKeyID>5902D388-1662-6932-61FA-C563F74D36EF</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_serie_tv</refColNames>
+<refColNames>idserie</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

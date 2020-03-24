@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="producir" directorySegmentName="seg_0" id="CE4447AF-84B6-0D24-75FA-CE2636C963A1">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prodcan" directorySegmentName="seg_0" id="CE4447AF-84B6-0D24-75FA-CE2636C963A1">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="iniciar_descargar_pelicula" directorySegmentName="seg_0" id="ECE6E007-DD99-44ED-EB7B-8F33D1CC7759">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usudespel" directorySegmentName="seg_0" id="ECE6E007-DD99-44ED-EB7B-8F33D1CC7759">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:46:48 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

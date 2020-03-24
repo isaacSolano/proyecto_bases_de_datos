@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8FA9D05-1923-96E0-663E-8B16B31B7739" containerWithKeyObject="5F11CDC5-39CF-42A8-0BF8-03C6F9605DE7" localFKIndex="FBF5FF27-B464-5047-8A95-9D4F9C8A2001" name="reproducciones_pelicula_peliculas_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8FA9D05-1923-96E0-663E-8B16B31B7739" containerWithKeyObject="5F11CDC5-39CF-42A8-0BF8-03C6F9605DE7" localFKIndex="FBF5FF27-B464-5047-8A95-9D4F9C8A2001" name="reprodpel_pel">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>DB288167-1A53-AEC1-617E-F0F675365595</generatorID>
@@ -10,7 +10,7 @@
 <keyObject>EBCFDF82-4F08-B2DC-1D34-AB39FEE29B42</keyObject>
 <referredKeyID>EBCFDF82-4F08-B2DC-1D34-AB39FEE29B42</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_pelicula</refColNames>
+<refColNames>idpelicula</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

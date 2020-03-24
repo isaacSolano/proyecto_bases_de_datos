@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_actor" id="C8460501-DDF6-C960-D86E-44D844BAC157">
+<Attribute name="idactor" id="C8460501-DDF6-C960-D86E-44D844BAC157">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -106,8 +106,9 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 20:03:17 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

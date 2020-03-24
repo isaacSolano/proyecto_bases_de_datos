@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5D81BD2-BD57-439F-C21C-1272C54F76B5" name="productor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5D81BD2-BD57-439F-C21C-1272C54F76B5" name="productores">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>58F407F3-952E-2C5A-FEF4-4EE80968FD7F</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_productor" id="C56DA546-1DDF-B7B9-48FE-BFF564C68512">
+<Column name="idproductor" id="C56DA546-1DDF-B7B9-48FE-BFF564C68512">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>67C12D9C-7D2F-ABBC-3A7E-ABF844587A89</generatorID>
@@ -82,7 +82,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F5AB390B-8235-354C-B91E-B33759DD2F61" name="productor_PK">
+<ind_PK_UK id="F5AB390B-8235-354C-B91E-B33759DD2F61" name="productores_PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>DAEA5E29-AE3C-C8EF-5891-CAF524A8D1C5</generatorID>

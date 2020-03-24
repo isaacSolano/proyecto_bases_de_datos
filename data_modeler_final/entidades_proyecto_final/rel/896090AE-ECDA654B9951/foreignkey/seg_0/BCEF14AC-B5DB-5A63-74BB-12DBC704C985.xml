@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BCEF14AC-B5DB-5A63-74BB-12DBC704C985" containerWithKeyObject="F13E1A43-8B66-3F4C-85A3-7B4E93D8AC93" localFKIndex="23B11FFF-7BA9-6AE5-52C9-63E884372D36" name="formas_pago_usuarios_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BCEF14AC-B5DB-5A63-74BB-12DBC704C985" containerWithKeyObject="F13E1A43-8B66-3F4C-85A3-7B4E93D8AC93" localFKIndex="23B11FFF-7BA9-6AE5-52C9-63E884372D36" name="formaspago_usu">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>0BE36208-D87B-E544-953D-C6C443BB81A7</generatorID>
@@ -10,7 +10,7 @@
 <keyObject>D4330C13-87B0-8026-23B2-EA5C23EB6F3A</keyObject>
 <referredKeyID>D4330C13-87B0-8026-23B2-EA5C23EB6F3A</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_usuario</refColNames>
+<refColNames>idusuario</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

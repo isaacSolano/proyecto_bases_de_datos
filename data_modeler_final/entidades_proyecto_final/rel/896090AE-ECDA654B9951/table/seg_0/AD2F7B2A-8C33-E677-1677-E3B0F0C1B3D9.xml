@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD2F7B2A-8C33-E677-1677-E3B0F0C1B3D9" name="descargas_pelicula">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD2F7B2A-8C33-E677-1677-E3B0F0C1B3D9" name="descargaspelicula">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>1F263B35-F6AF-6DF0-F3B0-58A7EB2AE412</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<ordsAlias>des_pel</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_descarga" id="25ABBF8D-EF96-3085-C922-4D6FDE66867A">
+<Column name="iddescarga" id="25ABBF8D-EF96-3085-C922-4D6FDE66867A">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>1C6A553D-9528-0970-9CC6-38AE38FC855F</generatorID>
@@ -20,7 +21,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_inicio" id="866EF0A0-0583-71CD-A586-BC8903786B6D">
+<Column name="fechaini" id="866EF0A0-0583-71CD-A586-BC8903786B6D">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>6D5EB3DD-97A4-F196-FF39-73D33CA5C807</generatorID>
@@ -31,7 +32,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estado_actual" id="B2FA41FF-9A8F-DDCD-8103-A19151293C7A">
+<Column name="estado" id="B2FA41FF-9A8F-DDCD-8103-A19151293C7A">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>37C5BD70-9611-2843-A14A-56404B1D4C70</generatorID>
@@ -55,7 +56,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="usuarios_id_usuario" id="504ED6BC-C166-FCD5-FFE9-9BB16932854D">
+<Column name="idusuario" id="504ED6BC-C166-FCD5-FFE9-9BB16932854D">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>BF97F82A-A203-50B6-EEE1-A06941F3DD69</generatorID>
@@ -71,7 +72,7 @@
 <colAssociation fkAssociation="F5213DFA-D5CA-542A-1296-3E470F80B2D3" referredColumn="D32769E4-20EC-23D1-7B05-2D24AE4B7D53"/>
 </associations>
 </Column>
-<Column name="peliculas_id_pelicula" id="360256B8-7D8E-C4B3-09E6-8F5EDDEC6C75">
+<Column name="idpelicula" id="360256B8-7D8E-C4B3-09E6-8F5EDDEC6C75">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>BF14C338-C939-3A35-4E4D-BD44D7418246</generatorID>
@@ -89,7 +90,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ABCBE6E1-8C5F-11C8-447C-F9C92D53167F" name="descargas_pelicula_PK">
+<ind_PK_UK id="ABCBE6E1-8C5F-11C8-447C-F9C92D53167F" name="descargaspelicula_PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>1EE3EFD0-3F74-FC01-304A-C08E9D6FF5A5</generatorID>
@@ -101,7 +102,7 @@
 <colUsage columnID="25ABBF8D-EF96-3085-C922-4D6FDE66867A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9061D4AF-2AA7-7B54-330F-551885E0C5FB" name="descargas_pelicula_peliculas_FK">
+<ind_PK_UK id="9061D4AF-2AA7-7B54-330F-551885E0C5FB" name="descarpel_pel">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>CF282A2F-B258-F343-DA30-471CB46C19ED</generatorID>
@@ -112,7 +113,7 @@
 <colUsage columnID="360256B8-7D8E-C4B3-09E6-8F5EDDEC6C75"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EFB711BE-8339-D866-9C52-DA0C21109125" name="descargas_pelicula_usuarios_FK">
+<ind_PK_UK id="EFB711BE-8339-D866-9C52-DA0C21109125" name="descarpel_usu">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>ECE6E007-DD99-44ED-EB7B-8F33D1CC7759</generatorID>

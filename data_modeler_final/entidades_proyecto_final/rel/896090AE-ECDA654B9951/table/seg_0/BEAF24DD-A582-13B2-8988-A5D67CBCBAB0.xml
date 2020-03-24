@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEAF24DD-A582-13B2-8988-A5D67CBCBAB0" name="descargas_canciones">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEAF24DD-A582-13B2-8988-A5D67CBCBAB0" name="descargascanciones">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>D09B7D71-A51F-152D-19F6-5B70F73909A9</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<ordsAlias>des_can</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_descarga" id="8FF72668-AEF6-50EA-E73F-5A5A0C030556">
+<Column name="iddescarga" id="8FF72668-AEF6-50EA-E73F-5A5A0C030556">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>F52797AA-1367-A620-16C9-562E74EF66FD</generatorID>
@@ -20,7 +21,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_inicio" id="B2CF4971-9D87-4F94-384F-77FEB208D70E">
+<Column name="fechaini" id="B2CF4971-9D87-4F94-384F-77FEB208D70E">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>65EE4FB3-19D3-1401-4111-064218ABFDA5</generatorID>
@@ -31,7 +32,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estado_actual" id="6DF44FD7-3E94-3773-4AFF-71333772B4AC">
+<Column name="estado" id="6DF44FD7-3E94-3773-4AFF-71333772B4AC">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>D3750891-C3A8-39F3-E902-DBAF5EC84BE2</generatorID>
@@ -55,7 +56,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="usuarios_id_usuario" id="37706CAF-65D8-10B3-9186-0B58F454956B">
+<Column name="idusuario" id="37706CAF-65D8-10B3-9186-0B58F454956B">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>00A94E24-EF76-98A6-6333-1AAE2805F4ED</generatorID>
@@ -71,7 +72,7 @@
 <colAssociation fkAssociation="6EB36AA5-8977-EAC8-E0D8-B2129F3B0D7C" referredColumn="D32769E4-20EC-23D1-7B05-2D24AE4B7D53"/>
 </associations>
 </Column>
-<Column name="canciones_id_cancion" id="185B29B3-7BE8-50E5-B0B5-514CC6EDD8F4">
+<Column name="idcancion" id="185B29B3-7BE8-50E5-B0B5-514CC6EDD8F4">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>47C88966-9AD8-2671-F058-00E48F0B8F3D</generatorID>
@@ -89,7 +90,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3D4B6E9F-8847-89E2-8B86-4D3E428AC2C8" name="descargas_canciones_PK">
+<ind_PK_UK id="3D4B6E9F-8847-89E2-8B86-4D3E428AC2C8" name="descargascanciones_PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>7075BC03-6D08-0F38-79DC-0646E69730B0</generatorID>
@@ -101,7 +102,7 @@
 <colUsage columnID="8FF72668-AEF6-50EA-E73F-5A5A0C030556"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3946D7E6-C83F-5696-BBBA-B9391585EAE6" name="descargas_canciones_canciones_FK">
+<ind_PK_UK id="3946D7E6-C83F-5696-BBBA-B9391585EAE6" name="desccan_can">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>5035203C-C7D9-1C47-49AC-A775BF7F6932</generatorID>
@@ -112,7 +113,7 @@
 <colUsage columnID="185B29B3-7BE8-50E5-B0B5-514CC6EDD8F4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2A53CF72-98DD-73CF-1FDE-ECA0B678B8C6" name="descargas_canciones_usuarios_FK">
+<ind_PK_UK id="2A53CF72-98DD-73CF-1FDE-ECA0B678B8C6" name="desccan_usu">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>C98F7706-352B-B612-5BC1-027D17EBDD4D</generatorID>

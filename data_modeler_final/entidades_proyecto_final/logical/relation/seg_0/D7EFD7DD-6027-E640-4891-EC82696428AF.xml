@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="grabar" directorySegmentName="seg_0" id="D7EFD7DD-6027-E640-4891-EC82696428AF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="muscan" directorySegmentName="seg_0" id="D7EFD7DD-6027-E640-4891-EC82696428AF">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

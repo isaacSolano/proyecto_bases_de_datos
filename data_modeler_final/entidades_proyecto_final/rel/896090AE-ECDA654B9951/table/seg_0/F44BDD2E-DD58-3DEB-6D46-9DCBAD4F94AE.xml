@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_usuario" id="D32769E4-20EC-23D1-7B05-2D24AE4B7D53">
+<Column name="idusuario" id="D32769E4-20EC-23D1-7B05-2D24AE4B7D53">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C</generatorID>
@@ -56,7 +56,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_nac" id="90765F18-8152-3692-9AF3-9B6CC7934EF7">
+<Column name="fechanacimiento" id="90765F18-8152-3692-9AF3-9B6CC7934EF7">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>77C4AA18-F2AB-DF34-B748-F1871A2CED75</generatorID>
@@ -103,7 +103,7 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="clave_acceso" id="92B54510-724D-E0A4-F555-211F2AE92B10">
+<Column name="claveacceso" id="92B54510-724D-E0A4-F555-211F2AE92B10">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>E35478ED-DD12-2621-7430-8103EB5150FD</generatorID>
@@ -127,7 +127,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_inclusion" id="0C30B11C-B5E6-420E-1863-434CE8139388">
+<Column name="fechainclusion" id="0C30B11C-B5E6-420E-1863-434CE8139388">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>8118E38F-E35E-7190-5C07-B6569D249969</generatorID>

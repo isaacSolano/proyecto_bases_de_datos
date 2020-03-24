@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="preferir_serie_tv" directorySegmentName="seg_0" id="B3612BEF-F874-9DB9-6FCD-1B093D83C921">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="favser" directorySegmentName="seg_0" id="B3612BEF-F874-9DB9-6FCD-1B093D83C921">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:05:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

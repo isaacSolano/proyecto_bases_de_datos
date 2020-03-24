@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB3CCAC9-216C-92A6-865E-6858027B0145" name="descargas_series_tv">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB3CCAC9-216C-92A6-865E-6858027B0145" name="descargasseries">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>31C90250-99CE-8149-8E4C-FECACCA6E414</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_descarga" id="C2B837E8-BC7D-F588-0D31-85E6E2516574">
+<Column name="iddescarga" id="C2B837E8-BC7D-F588-0D31-85E6E2516574">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>70D643C2-B890-9E48-FD9E-B28C260BA569</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_inicio" id="23BC6791-5C61-F441-22C0-9219FFBD201C">
+<Column name="fechaini" id="23BC6791-5C61-F441-22C0-9219FFBD201C">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>D06BB701-999C-66EB-FA88-D0C1DFF8935A</generatorID>
@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estado_actual" id="69B81866-7177-F498-DD28-11C3D0A94EA0">
+<Column name="estado" id="69B81866-7177-F498-DD28-11C3D0A94EA0">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>670DE2C4-1245-DD0B-5943-C58AC5AABAC3</generatorID>
@@ -55,7 +55,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="usuarios_id_usuario" id="3B3043C1-7C32-9FC4-19C8-9DD8431952D6">
+<Column name="idusuario" id="3B3043C1-7C32-9FC4-19C8-9DD8431952D6">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>3E5A898C-AEEB-16A5-24B1-5DA1BA3672C9</generatorID>
@@ -71,7 +71,7 @@
 <colAssociation fkAssociation="0CCA0FF2-0741-79C3-41EB-556A7D03B74F" referredColumn="D32769E4-20EC-23D1-7B05-2D24AE4B7D53"/>
 </associations>
 </Column>
-<Column name="series_tv_id_serie_tv" id="86318C31-8CB0-72B7-4291-0C3AF5F6DF60">
+<Column name="idserie" id="86318C31-8CB0-72B7-4291-0C3AF5F6DF60">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>50B0EC6F-FC67-DB53-93B6-169F860ED215</generatorID>
@@ -89,7 +89,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CCD3DE57-EC5B-5874-1103-3759A5A8338E" name="descargas_series_tv_PK">
+<ind_PK_UK id="CCD3DE57-EC5B-5874-1103-3759A5A8338E" name="descargasseries_PK">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>F2F96A77-7889-3590-1065-B6F9F7EC84F2</generatorID>
@@ -101,7 +101,7 @@
 <colUsage columnID="C2B837E8-BC7D-F588-0D31-85E6E2516574"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1516B7E2-7F46-097C-1721-BB19F4AE507F" name="descargas_series_tv_series_tv_FK">
+<ind_PK_UK id="1516B7E2-7F46-097C-1721-BB19F4AE507F" name="descarser_ser">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>413A3068-B2EA-ACEE-A9B4-1284A7483B22</generatorID>
@@ -112,7 +112,7 @@
 <colUsage columnID="86318C31-8CB0-72B7-4291-0C3AF5F6DF60"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD921BBA-1675-9646-1ECD-D00DC74C6384" name="descargas_series_tv_usuarios_FK">
+<ind_PK_UK id="CD921BBA-1675-9646-1ECD-D00DC74C6384" name="descarser_usu">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>A365DF12-8AF5-0023-F1ED-B204EC0E5637</generatorID>

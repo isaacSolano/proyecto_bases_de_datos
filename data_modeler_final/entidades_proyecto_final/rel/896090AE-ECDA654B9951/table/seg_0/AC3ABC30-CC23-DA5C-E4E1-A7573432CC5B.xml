@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_cancion" id="8496BE9E-EC4C-FCDC-5A6F-9EE411C37B96">
+<Column name="idcancion" id="8496BE9E-EC4C-FCDC-5A6F-9EE411C37B96">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>90A36A3B-4C86-4054-6879-06CF4E2E3133</generatorID>
@@ -56,7 +56,7 @@
 <ownDataTypeParameters>400,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="link_cancion" id="362A53BE-853C-10C8-67AF-86C2F6E9A8AC">
+<Column name="enlace" id="362A53BE-853C-10C8-67AF-86C2F6E9A8AC">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>D7626D50-FAC6-1680-37DC-90CD098FF0A5</generatorID>
@@ -80,7 +80,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="productor_id_productor" id="D8C6DE49-3CF1-EBAF-E368-4C7925824518">
+<Column name="idproductor" id="D8C6DE49-3CF1-EBAF-E368-4C7925824518">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>D35609B5-E756-A8A3-17C9-1EE1A4C392B9</generatorID>
@@ -96,7 +96,7 @@
 <colAssociation fkAssociation="D121A3A1-4856-3DB7-9606-0187AE19B7C6" referredColumn="C56DA546-1DDF-B7B9-48FE-BFF564C68512"/>
 </associations>
 </Column>
-<Column name="musico_id_musico" id="B086D747-FDC3-1EBD-1A85-43EF5812CA89">
+<Column name="idmusico" id="B086D747-FDC3-1EBD-1A85-43EF5812CA89">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>CA828A20-4BBD-FD6B-C792-326490086138</generatorID>
@@ -114,7 +114,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AB5145A8-99E8-F514-90D8-7491ADC2DA40" name="canciones_PK">
+<ind_PK_UK id="AB5145A8-99E8-F514-90D8-7491ADC2DA40" name="canciones">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>42DE34D5-92E0-D195-4DA2-8E0458FC4A52</generatorID>
@@ -126,7 +126,7 @@
 <colUsage columnID="8496BE9E-EC4C-FCDC-5A6F-9EE411C37B96"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="917E6A6F-2738-EF4D-0D71-3643FEC3CEE0" name="canciones_musico_FK">
+<ind_PK_UK id="917E6A6F-2738-EF4D-0D71-3643FEC3CEE0" name="can_mus">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>D7EFD7DD-6027-E640-4891-EC82696428AF</generatorID>
@@ -137,7 +137,7 @@
 <colUsage columnID="B086D747-FDC3-1EBD-1A85-43EF5812CA89"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="971EE872-E335-0E2A-DABB-4E2093D6B49D" name="canciones_productor_FK">
+<ind_PK_UK id="971EE872-E335-0E2A-DABB-4E2093D6B49D" name="can_prod">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>CE4447AF-84B6-0D24-75FA-CE2636C963A1</generatorID>

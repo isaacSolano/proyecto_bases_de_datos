@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59BB69FE-AEE9-2D13-F2C6-C172AD584424" name="formas_pago">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59BB69FE-AEE9-2D13-F2C6-C172AD584424" name="formaspago">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="6EF887C7-3D29-79F4-200A-7F1ECA70333F">
+<Attribute name="idformapago" id="6EF887C7-3D29-79F4-200A-7F1ECA70333F">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -30,7 +30,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="num_tarjeta" id="074A13BA-1E85-F3F7-56DE-009EB9CB67AD">
+<Attribute name="numtarjeta" id="074A13BA-1E85-F3F7-56DE-009EB9CB67AD">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -44,7 +44,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_propetario" id="C75C1ECB-F49E-D3CE-1B4A-87BBC3576A91">
+<Attribute name="propetario" id="C75C1ECB-F49E-D3CE-1B4A-87BBC3576A91">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -58,7 +58,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_vencimiento" id="EEF2F876-BA88-5EDA-FCFA-7D4F48134399">
+<Attribute name="fechavenc" id="EEF2F876-BA88-5EDA-FCFA-7D4F48134399">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 17:52:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -99,7 +99,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="9F0ADE84-E83A-0E14-C05A-369FBABBDBDC">
+<Attribute name="idusuario" id="9F0ADE84-E83A-0E14-C05A-369FBABBDBDC">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-22 18:17:15 UTC</createdTime>
 <generatorID>0BE36208-D87B-E544-953D-C6C443BB81A7</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dirigir_peliculas" directorySegmentName="seg_0" id="A464BBB6-7AA8-56E6-CE56-85F4FCC3E99F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dirpel" directorySegmentName="seg_0" id="A464BBB6-7AA8-56E6-CE56-85F4FCC3E99F">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 20:22:21 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

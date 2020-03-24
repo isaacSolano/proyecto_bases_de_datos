@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_usuario" id="BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C">
+<Attribute name="idusuario" id="BD7B6419-A3BF-1947-1FBB-7B1D11E2CB2C">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:10 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -68,7 +68,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_nac" id="77C4AA18-F2AB-DF34-B748-F1871A2CED75">
+<Attribute name="fechanacimiento" id="77C4AA18-F2AB-DF34-B748-F1871A2CED75">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:29 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -119,7 +119,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="clave_acceso" id="E35478ED-DD12-2621-7430-8103EB5150FD">
+<Attribute name="claveacceso" id="E35478ED-DD12-2621-7430-8103EB5150FD">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:25:01 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -145,7 +145,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_inclusion" id="8118E38F-E35E-7190-5C07-B6569D249969">
+<Attribute name="fechainclusion" id="8118E38F-E35E-7190-5C07-B6569D249969">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:25:17 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

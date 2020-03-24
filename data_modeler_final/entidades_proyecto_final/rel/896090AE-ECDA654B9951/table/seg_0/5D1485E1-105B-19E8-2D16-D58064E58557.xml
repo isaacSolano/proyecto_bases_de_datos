@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_pelicula" id="A1759EAF-EE19-32DC-C01B-E4F551C6462C">
+<Column name="idpelicula" id="A1759EAF-EE19-32DC-C01B-E4F551C6462C">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>98C38D83-51A8-4762-EED7-5C1543CBD877</generatorID>
@@ -116,7 +116,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="directores_id_director" id="7BA433DC-E908-6DA9-FF89-0FA0E126F4AD">
+<Column name="iddirector" id="7BA433DC-E908-6DA9-FF89-0FA0E126F4AD">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>4F87B812-EB5E-AD13-1C3C-F05C3352F945</generatorID>
@@ -132,7 +132,7 @@
 <colAssociation fkAssociation="B288428F-02EE-C678-FF19-27BDEEB4A3BD" referredColumn="FA962F0C-6FEB-0E8C-D5E6-12BEE3DBC426"/>
 </associations>
 </Column>
-<Column name="reparto_id_reparto" id="606A174B-F86F-6896-9147-41B988DEF4C0">
+<Column name="idreparto" id="606A174B-F86F-6896-9147-41B988DEF4C0">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>99CF0B62-EC47-23AD-819C-DC9257BABA56</generatorID>
@@ -163,7 +163,7 @@
 <colUsage columnID="A1759EAF-EE19-32DC-C01B-E4F551C6462C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="16A2411E-6C37-5A33-DF76-E0113F7D385F" name="peliculas_directores_FK">
+<ind_PK_UK id="16A2411E-6C37-5A33-DF76-E0113F7D385F" name="pel_dir">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>A464BBB6-7AA8-56E6-CE56-85F4FCC3E99F</generatorID>
@@ -174,7 +174,7 @@
 <colUsage columnID="7BA433DC-E908-6DA9-FF89-0FA0E126F4AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD29349B-0C97-D170-B03D-094FC1C20862" name="peliculas_reparto_FK">
+<ind_PK_UK id="CD29349B-0C97-D170-B03D-094FC1C20862" name="pel_repar">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:10:49 UTC</createdTime>
 <generatorID>44381F16-0D4D-6310-7395-3C6F234D7B99</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7CFBDC2-5AB4-14DF-7218-BFE5D1BCFE38" name="series_tv_favoritas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7CFBDC2-5AB4-14DF-7218-BFE5D1BCFE38" name="preferenciasserie">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:46:27 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_favorito" id="5C935209-B735-BB3F-D265-BA9DC8360B8D">
+<Attribute name="idpreferencia" id="5C935209-B735-BB3F-D265-BA9DC8360B8D">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:46:27 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="B1BB2E19-3F5F-4DA8-DAE9-EFEE54316CE0">
+<Attribute name="idusuario" id="B1BB2E19-3F5F-4DA8-DAE9-EFEE54316CE0">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:02:13 UTC</createdTime>
 <generatorID>F5FC3321-D336-4176-4132-846D1E2E73DA</generatorID>
@@ -41,9 +41,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_serie_tv" id="E6AAFB59-B421-DBA8-A971-5CBFAD839587">
+<Attribute name="idserie" id="E6AAFB59-B421-DBA8-A971-5CBFAD839587">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:05:08 UTC</createdTime>
 <generatorID>B3612BEF-F874-9DB9-6FCD-1B093D83C921</generatorID>
@@ -56,7 +56,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -64,9 +64,8 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:46:27 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="87C8C797-EFD3-3D8E-3B60-D16EB56E39EA" name="reproducciones_pelicula">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="87C8C797-EFD3-3D8E-3B60-D16EB56E39EA" name="reproduccionespelicula">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:41:35 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_reproduccion" id="ADDB6A85-5CB1-44D7-C10C-2EF93C43EDF0">
+<Attribute name="idreproduccion" id="ADDB6A85-5CB1-44D7-C10C-2EF93C43EDF0">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:41:35 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_inicio" id="6F71F7A4-19EB-E258-09DC-9FBA6D0EB466">
+<Attribute name="fechaini" id="6F71F7A4-19EB-E258-09DC-9FBA6D0EB466">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:41:35 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado_actual" id="DF1FBB57-B979-70F4-1438-0DE9534752F5">
+<Attribute name="estado" id="DF1FBB57-B979-70F4-1438-0DE9534752F5">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:41:35 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cant_reproducciones" id="971E9274-FDDC-EA27-60AC-82F029A2118D">
+<Attribute name="cantidad" id="971E9274-FDDC-EA27-60AC-82F029A2118D">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:41:35 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -66,7 +66,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pelicula" id="17649A22-8543-7ED7-20C2-193486CD2E53">
+<Attribute name="idpelicula" id="17649A22-8543-7ED7-20C2-193486CD2E53">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:52:10 UTC</createdTime>
 <generatorID>DB288167-1A53-AEC1-617E-F0F675365595</generatorID>
@@ -81,7 +81,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="E1D55E49-7588-F64A-41DC-86527637A6A3">
+<Attribute name="idusuario" id="E1D55E49-7588-F64A-41DC-86527637A6A3">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:53:00 UTC</createdTime>
 <generatorID>1F1544B3-6801-D4FB-4CAD-962AF3EDE155</generatorID>
@@ -94,7 +94,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -102,9 +102,8 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:41:35 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

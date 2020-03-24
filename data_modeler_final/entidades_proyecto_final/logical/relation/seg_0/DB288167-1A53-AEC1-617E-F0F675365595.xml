@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reproducir_series_tv" directorySegmentName="seg_0" id="DB288167-1A53-AEC1-617E-F0F675365595">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reprodpel" directorySegmentName="seg_0" id="DB288167-1A53-AEC1-617E-F0F675365595">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:52:10 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

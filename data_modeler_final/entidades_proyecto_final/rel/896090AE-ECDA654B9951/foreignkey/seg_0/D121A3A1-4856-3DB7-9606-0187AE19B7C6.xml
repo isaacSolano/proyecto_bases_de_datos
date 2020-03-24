@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D121A3A1-4856-3DB7-9606-0187AE19B7C6" containerWithKeyObject="AC3ABC30-CC23-DA5C-E4E1-A7573432CC5B" localFKIndex="971EE872-E335-0E2A-DABB-4E2093D6B49D" name="canciones_productor_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D121A3A1-4856-3DB7-9606-0187AE19B7C6" containerWithKeyObject="AC3ABC30-CC23-DA5C-E4E1-A7573432CC5B" localFKIndex="971EE872-E335-0E2A-DABB-4E2093D6B49D" name="can_prod">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 17:39:05 UTC</createdTime>
 <generatorID>CE4447AF-84B6-0D24-75FA-CE2636C963A1</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<referredTableLongName>productor</referredTableLongName>
+<referredTableLongName>productores</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>F5D81BD2-BD57-439F-C21C-1272C54F76B5</referredTableID>
 <keyObject>F5AB390B-8235-354C-B91E-B33759DD2F61</keyObject>
 <referredKeyID>F5AB390B-8235-354C-B91E-B33759DD2F61</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_productor</refColNames>
+<refColNames>idproductor</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
