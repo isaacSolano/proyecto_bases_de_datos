@@ -22,3 +22,5 @@ drop table SAGASERIE cascade constraints;
 drop table SAGASPELICULA cascade constraints;                                   
 drop table SERIES cascade constraints;                                          
 drop table USUARIOS cascade constraints;                                        
+drop table MEMBRESIAS cascade constraints;                                        
+/

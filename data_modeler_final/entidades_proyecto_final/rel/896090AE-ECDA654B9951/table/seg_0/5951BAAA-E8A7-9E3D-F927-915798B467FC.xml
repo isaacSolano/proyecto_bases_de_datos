@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5951BAAA-E8A7-9E3D-F927-915798B467FC" name="membresias">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 20:13:08 UTC</createdTime>
+<generatorID>BED9F96E-E2A7-3ACB-4486-4290B39EE935</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idmembresia" id="38EEACAE-C4F5-9919-7FCC-CE53CB28FDF0">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 20:13:08 UTC</createdTime>
+<generatorID>D7AB110E-F1A7-2734-0D9E-F6D137153AA0</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idusuario" id="985CC549-6D7F-5F93-CF32-4C79AF833FE1">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 20:13:08 UTC</createdTime>
+<generatorID>AF85E65E-DB94-6CC2-68BD-35460C0F6A6E</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F95CEAB0-0357-F1D0-9163-5334D8893886" referredColumn="3EDFB7CD-82B0-662F-04BD-8DEDA1C3C570"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="648285B8-37D7-5CAF-8EF8-6E3A6824035D" name="membresias_PK">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 20:13:08 UTC</createdTime>
+<generatorID>DC1AAF65-0280-E0CE-39BC-6F331A65CF24</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38EEACAE-C4F5-9919-7FCC-CE53CB28FDF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E2F46DF-FD39-E421-8FF2-956037C8B25B" name="mem_usu">
+<createdBy>dev__</createdBy>
+<createdTime>2020-03-24 20:13:08 UTC</createdTime>
+<generatorID>9E663890-2647-DD79-480A-F354C41C27D2</generatorID>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="985CC549-6D7F-5F93-CF32-4C79AF833FE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

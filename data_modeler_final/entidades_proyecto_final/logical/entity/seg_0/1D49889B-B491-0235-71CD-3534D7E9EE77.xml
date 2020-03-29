@@ -3,9 +3,10 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>DEA268FE-AE18-9321-B19A-6292B73E7D3F</importedID>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +21,10 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>B09DC860-3260-5B86-6919-0A5F3609BF80</importedID>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,9 +36,10 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>292DA795-F3E3-3260-9580-D5D37218A8A4</importedID>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,9 +51,10 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>3C3E8D7D-8580-E182-2AF5-8D1C4EC87552</importedID>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,9 +66,10 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>415358D1-CB4D-FA48-65AC-FD329AF6FB6D</importedID>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,9 +81,10 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>DAD394BA-087C-6703-4550-708BD42E924D</importedID>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -90,15 +96,16 @@
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 19:38:41 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>603BDE1D-D51E-B53F-8E0D-BCAFCAA856AC</importedID>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

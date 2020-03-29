@@ -3,8 +3,9 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:23:48 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,8 +20,9 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:10 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,8 +35,9 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:23:55 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,21 +49,23 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:25:59 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="12288612-8283-35DB-36E0-8A1C27AF206F">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:25 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,8 +77,9 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:29 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,8 +90,9 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:33 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -97,8 +104,9 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:39 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,21 +118,23 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:24:58 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="claveacceso" id="E35478ED-DD12-2621-7430-8103EB5150FD">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:25:01 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -136,21 +146,23 @@
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:25:07 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fechainclusion" id="8118E38F-E35E-7190-5C07-B6569D249969">
 <createdBy>Invitado</createdBy>
 <createdTime>2020-03-12 20:25:17 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
+<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
