@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D91B15E5-0774-C522-14BF-64531B8371FA" name="reproducionescanciones">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D91B15E5-0774-C522-14BF-64531B8371FA" name="reproduccionescanciones">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:28:08 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
@@ -52,19 +52,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cantidad" id="F1B901DC-815A-6898-6A9C-06CFA5FA2A51">
-<createdBy>dev__</createdBy>
-<createdTime>2020-03-23 21:28:08 UTC</createdTime>
-<ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idcancion" id="0BE0FFDD-EB5F-6CFD-6AE2-70765EEF35B8">
 <createdBy>dev__</createdBy>

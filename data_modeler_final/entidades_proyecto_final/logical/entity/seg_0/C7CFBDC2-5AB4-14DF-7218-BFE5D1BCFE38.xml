@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7CFBDC2-5AB4-14DF-7218-BFE5D1BCFE38" name="preferenciasserie">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7CFBDC2-5AB4-14DF-7218-BFE5D1BCFE38" name="preferenciasseries">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 21:46:27 UTC</createdTime>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>

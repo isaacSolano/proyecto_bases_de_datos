@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1369C3B1-3932-FD75-C998-BDCF8DBB0924" name="descargaspelicula">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1369C3B1-3932-FD75-C998-BDCF8DBB0924" name="descargaspeliculas">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-24 17:22:47 UTC</createdTime>
 <generatorID>1F263B35-F6AF-6DF0-F3B0-58A7EB2AE412</generatorID>
 <ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<ordsAlias>descargaspelicula</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -41,18 +42,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="cantidad" id="91421D5D-2167-2DA9-D8B5-51C5693C9F48">
-<createdBy>dev__</createdBy>
-<createdTime>2020-03-24 17:22:47 UTC</createdTime>
-<generatorID>0461F31E-C75A-1E6B-0D52-C738F98D55DE</generatorID>
-<ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="idusuario" id="CB8159DA-A6CA-4550-FDF5-4E86E5616276">

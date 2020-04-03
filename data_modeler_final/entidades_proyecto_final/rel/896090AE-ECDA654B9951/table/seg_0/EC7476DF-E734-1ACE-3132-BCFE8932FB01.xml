@@ -43,18 +43,6 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cantidad" id="9CB0751B-DFAD-04B2-5EBA-45FE0DF003DF">
-<createdBy>dev__</createdBy>
-<createdTime>2020-03-24 17:22:47 UTC</createdTime>
-<generatorID>BADC417C-B8F1-BBFF-A2A1-8C4A00BC0BA9</generatorID>
-<ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="idusuario" id="01B44C31-4239-2E9B-19A6-7D8C68536CC0">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-24 17:22:47 UTC</createdTime>

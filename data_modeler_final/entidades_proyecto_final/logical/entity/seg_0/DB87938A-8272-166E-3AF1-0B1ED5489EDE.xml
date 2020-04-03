@@ -53,19 +53,6 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cantidad" id="A7140C99-5F85-8ED5-B044-3BECAC47A86C">
-<createdBy>dev__</createdBy>
-<createdTime>2020-03-23 21:46:27 UTC</createdTime>
-<ownerDesignName>entidades_proyecto_final</ownerDesignName>
-<engineerTo>
-<item key="896090AE-9230-F1F9-607C-ECDA654B9951" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="idusuario" id="397DBB6D-731A-3DDB-4427-94A604341018">
 <createdBy>dev__</createdBy>
 <createdTime>2020-03-23 22:01:40 UTC</createdTime>
