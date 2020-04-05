@@ -106,7 +106,7 @@ insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFIC
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (3692554438,'Jurassic Park',2007, 'Paraguay', 'Universal Pictures', 'Ciencia Ficcion', 'MA', '240 min', 'Con saga', 2632378586);
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (1796441333,'Capitan America',2003, 'Salvador', 'Columbia Pictures', 'Accion', 'PG', '150 min', 'Con saga', 4378186360);
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (7915467799,'Terminator',2004, 'Espanha', '20th Century-Fox', 'Comedias', 'Y7', '217 min', 'Sin saga', 9416635989);
-insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (821363467,'300',2005, 'Nicaragua', 'Warner Bros', 'Ciencia Ficcion', 'FV', '240 min', 'Sin saga', 6027354051);
+insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (8213634627,'300',2005, 'Nicaragua', 'Warner Bros', 'Ciencia Ficcion', 'FV', '240 min', 'Sin saga', 6027354051);
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (7955261269,'Hulk',1987, 'Panama', 'Paramount Pictures', 'Dramas', 'R', '310 min', 'Con saga', 4378186360);
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (3697523600,'Doctor Strange',2006, 'Mexico', 'Universal Pictures', 'Suspenso', 'MA', '310 min', 'Con saga', 8148410254);
 
@@ -121,3 +121,14 @@ insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (695236
 insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365748, 'Robert Downey Jr.', 55, 'masc', 'Inglaterra', 'Accion');									
 insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365749, 'Chris Evans', 38, 'masc', 'Inglaterra', 'Comedia');									
 insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365750, 'Tom Holland', 23, 'masc', 'Canada', 'Comedia');									
+
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123695, to_date('01/01/2020','dd/mm/yy'), 'En curso', '5975171151', '1211853736');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123696, to_date('05/01/2020','dd/mm/yy'), 'En curso', '4954530805', '2586883260');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123697, to_date('06/01/2020','dd/mm/yy'), 'En curso', '7221572081', '9348611233');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123698, to_date('11/01/2020','dd/mm/yy'), 'Finalizado', '4324908921', '4295360183');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123699, to_date('22/01/2020','dd/mm/yy'), 'En curso', '3133075206', '5254531063');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123700, to_date('26/01/2020','dd/mm/yy'), 'Finalizado', '2047940791', '5632987457');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123701, to_date('30/01/2020','dd/mm/yy'), 'Finalizado', '1404763985', '8759878333');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123702, to_date('06/02/2020','dd/mm/yy'), 'En curso', '3866025959', '8061114247');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123703, to_date('20/02/2020','dd/mm/yy'), 'Finalizado', '3088181072', '8374768485');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123704, to_date('21/02/2020','dd/mm/yy'), 'Finalizado', '3453691137', '4617789552');											
