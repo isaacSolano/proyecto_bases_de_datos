@@ -1,0 +1,10 @@
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123695, to_date('01/01/2020','dd/mm/yy'), 'En curso', '5975171151', '1211853736');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123696, to_date('05/01/2020','dd/mm/yy'), 'En curso', '4954530805', '2586883260');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123697, to_date('06/01/2020','dd/mm/yy'), 'En curso', '7221572081', '9348611233');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123698, to_date('11/01/2020','dd/mm/yy'), 'Finalizado', '4324908921', '4295360183');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123699, to_date('22/01/2020','dd/mm/yy'), 'En curso', '3133075206', '5254531063');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123700, to_date('26/01/2020','dd/mm/yy'), 'Finalizado', '2047940791', '5632987457');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123701, to_date('30/01/2020','dd/mm/yy'), 'Finalizado', '1404763985', '8759878333');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123702, to_date('06/02/2020','dd/mm/yy'), 'En curso', '3866025959', '8061114247');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123703, to_date('20/02/2020','dd/mm/yy'), 'Finalizado', '3088181072', '8374768485');											
+insert into descargascanciones (IDDESCARGA, FECHAINI, ESTADO, IDUSUARIO, IDCANCION) values (4587123704, to_date('21/02/2020','dd/mm/yy'), 'Finalizado', '3453691137', '4617789552');											
