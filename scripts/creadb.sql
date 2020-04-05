@@ -73,7 +73,7 @@ ALTER TABLE directores ADD CONSTRAINT directores_pk PRIMARY KEY ( iddirector );
 
 CREATE TABLE formaspago (
     idformapago  NUMBER(10) NOT NULL,
-    numtarjeta   VARCHAR2(15) NOT NULL,
+    numtarjeta   VARCHAR2(20) NOT NULL,
     propetario   VARCHAR2(20) NOT NULL,
     fechavenc    DATE NOT NULL,
     cvv          NUMBER(5) NOT NULL,
@@ -186,7 +186,7 @@ ALTER TABLE repartosserie ADD CONSTRAINT repartosserie_pk PRIMARY KEY ( idrepart
 CREATE TABLE reproduccionescanciones (
     idreproduccion  NUMBER(10) NOT NULL,
     fechaini        DATE NOT NULL,
-    estado          VARCHAR2(10) NOT NULL,
+    estado          VARCHAR2(20) NOT NULL,
     idcancion       NUMBER(10) NOT NULL,
     idusuario       NUMBER(10) NOT NULL
 );
