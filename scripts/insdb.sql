@@ -47,26 +47,26 @@ insert into series (IDSERIE, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION,
 insert into series (IDSERIE, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, TEMPORADAS, IDDIRECTOR) values (9638527411,'La casa de papel',1980, 'Colombia', 'Paramount Pictures', 'Dramas', 'FV', 'Mini serie', '310 min', '4', 8148410254);														
 insert into series (IDSERIE, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, TEMPORADAS, IDDIRECTOR) values (9325383026,'Stranger Things',2015, 'Argentina', 'Universal Pictures', 'Suspenso', 'Y7', 'Serie grande', '310 min', '5', 2709132563);														
 
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (2743478533,'Lil Supa','Rap', 'Venezuela', '35', 'Fiesta');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4775820074,'Akapellah','Rap', 'Venezuela', '28', 'Fiesta');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (8587502272,'Rels B','Trap', 'Espanha', '26', 'Fiesta');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (6085908614,'Duki','Trap', 'Argentina', '23', 'Fiesta');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7065352120,'Bad Bunny','Reggaeton', 'Puerto Rico', '26', 'Para bailar');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7189926544,'J Balvin','Reggaeton', 'Colombia', '34', 'Para bailar');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (2509855035,'Dua Lipa','Pop', 'Inglaterra', '24', 'Club');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7532573903,'The weeknd','R'||'&'||'B', 'Estados Unidos', '30', 'Triste');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (9395914437,'Camilo','Pop latino', 'Colombia', '26', 'Romantica');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (1675781761,'Residente','Experimental', 'Puerto Rico', '42', 'Social');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4524019459,'Justin Bieber','Pop', 'Canada', '26', 'Club');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4429779449,'Post Malone','Rap', 'Estados Unidos', '24', 'Fiesta');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (1111935442,'Harry Styles','Pop', 'Estados Unidos', '26', 'Club');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (1104545938,'Freddie Mercury','Experimental', 'Inglaterra', '45', 'Social');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4616028047,'Shakira','Pop', 'Colombia', '43', 'Club');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (5673245542,'Beyonce','Pop', 'Estados Unidos', '38', 'Club');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (8226522768,'Lil peep','Rap', 'Estados Unidos', '21', 'Triste');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7350885399,'Toledo','Reggaeton', 'Costa Rica', '39', 'Fiesta');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (2143884545,'Jose Jose','Balada', 'Mexico', '71', 'Romantica');
-insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (3068179376,'El Piezas','Rap', 'Espanha', '34', 'Triste');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (2743478533,'Lil Supa','masc', 'Venezuela', '35', 'Fiesta');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4775820074,'Akapellah','masc', 'Venezuela', '28', 'Fiesta');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (8587502272,'Rels B','masc', 'España', '26', 'Fiesta');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (6085908614,'Duki','masc', 'Argentina', '23', 'Fiesta');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7065352120,'Bad Bunny','masc', 'Puerto Rico', '26', 'Para bailar');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7189926544,'J Balvin','masc', 'Colombia', '34', 'Para bailar');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (2509855035,'Dua Lipa','fem', 'Inglaterra', '24', 'Club');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7532573903,'The weeknd','masc', 'Estados Unidos', '30', 'Triste');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (9395914437,'Camilo','masc', 'Colombia', '26', 'Romantica');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (1675781761,'Residente','masc', 'Puerto Rico', '42', 'Social');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4524019459,'Justin Bieber','masc', 'Canada', '26', 'Club');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4429779449,'Post Malone','masc', 'Estados Unidos', '24', 'Fiesta');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (1111935442,'Harry Styles','masc', 'Estados Unidos', '26', 'Club');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (1104545938,'Freddie Mercury','masc', 'Inglaterra', '45', 'Social');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (4616028047,'Shakira','fem', 'Colombia', '43', 'Club');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (5673245542,'Beyonce','fem', 'Estados Unidos', '38', 'Club');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (8226522768,'Lil peep','masc', 'Estados Unidos', '21', 'Triste');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (7350885399,'Toledo','masc', 'Costa Rica', '39', 'Fiesta');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (2143884545,'Jose Jose','masc', 'Mexico', '71', 'Romantica');
+insert into musicos (IDMUSICO, NOMBRE, GENERO, PAIS, EDAD, ESTILO) values (3068179376,'El Piezas','masc', 'España', '34', 'Triste');
 
 insert into canciones (IDCANCION, TIPO, NOMBRE, DURACION, LETRA, ENLACE, GENERO, IDPRODUCTOR, IDMUSICO) values (1211853736,'LUZ','Fiesta', '4:44', 'www.musica.com/LUZ/letra', 'www.musica.com/LUZ', 'Rap', 1236547829, 5673245542);				
 insert into canciones (IDCANCION, TIPO, NOMBRE, DURACION, LETRA, ENLACE, GENERO, IDPRODUCTOR, IDMUSICO) values (2586883260,'Fiesta','Gracias', '3:04', 'www.musica.com/Gracias/letra', 'www.musica.com/Gracias', 'Rap', 9874563212, 2143884545);				
@@ -109,3 +109,15 @@ insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFIC
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (821363467,'300',2005, 'Nicaragua', 'Warner Bros', 'Ciencia Ficcion', 'FV', '240 min', 'Sin saga', 6027354051);
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (7955261269,'Hulk',1987, 'Panama', 'Paramount Pictures', 'Dramas', 'R', '310 min', 'Con saga', 4378186360);
 insert into PELICULAS (IDPELICULA, TITULO, ANNO, PAIS, ESTUDIO, GENERO, CLASIFICACION, CATEGORIA, DURACION, IDDIRECTOR) values (3697523600,'Doctor Strange',2006, 'Mexico', 'Universal Pictures', 'Suspenso', 'MA', '310 min', 'Con saga', 8148410254);
+
+
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365741, 'Will Smith', 51, 'masc', 'Estados Unidos', 'Variado');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365742, 'Scarlett Johansson', 35, 'fem', 'Estados Unidos', 'Accion');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365743, 'Elizabeth Olsen', 31, 'fem', 'Estados Unidos', 'Drama');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365744, 'Karen Gillan', 32, 'fem', 'Inglaterra', 'Drama');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365745, 'Brie Larson', 30, 'fem', 'Estados Unidos', 'Comedia');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365746, 'Gwyneth Paltrow', 47, 'fem', 'Canada', 'Accion');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365747, 'Chris Hemsworth', 36, 'masc', 'Canada', 'Comedia');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365748, 'Robert Downey Jr.', 55, 'masc', 'Inglaterra', 'Accion');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365749, 'Chris Evans', 38, 'masc', 'Inglaterra', 'Comedia');									
+insert into ACTORES (IDACTOR, NOMBRE, EDAD, GENERO, PAIS, ESTILO) values (6952365750, 'Tom Holland', 23, 'masc', 'Canada', 'Comedia');									

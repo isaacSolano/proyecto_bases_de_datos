@@ -22,4 +22,5 @@ drop table REPRODUCCIONESSERIES cascade constraints;
 drop table SAGASPELICULA cascade constraints;
 drop table SAGASSERIE cascade constraints;
 drop table SERIES cascade constraints;
+drop table USUARIOS;
 /
