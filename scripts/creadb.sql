@@ -186,7 +186,7 @@ ALTER TABLE repartosserie ADD CONSTRAINT repartosserie_pk PRIMARY KEY ( idrepart
 CREATE TABLE reproduccionescanciones (
     idreproduccion  NUMBER(10) NOT NULL,
     fechaini        DATE NOT NULL,
-    estado          VARCHAR2(10) NOT NULL,
+    estado          VARCHAR2(20) NOT NULL,
     idcancion       NUMBER(10) NOT NULL,
     idusuario       NUMBER(10) NOT NULL
 );
