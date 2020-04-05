@@ -1,2 +1,4 @@
- grant select on USUARIOS to proyectouser
+select idusuario, count(idusuario)
+from preferenciascanciones
+group by idusuario
 /
