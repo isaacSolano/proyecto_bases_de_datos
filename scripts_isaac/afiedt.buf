@@ -1,0 +1,2 @@
+select titulo, anno, categoria, genero, idserie from series
+/

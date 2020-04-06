@@ -21,7 +21,19 @@ union all
     select idreproduccion from reproduccionescanciones id
 union all
     select idpreferencia from preferenciascanciones id
-
-
+union all
+    select iddescarga from descargasseries id
+union all
+    select idreproduccion from reproduccionesseries id
+union all
+    select idpreferencia from preferenciasseries id
+union all
+    select idmembresia from membresias id
+union all
+    select idproduccion from produccionseries id
+union all
+    select idrepartoserie from repartosserie id
+union all
+    select idsaga from sagasserie id
 
 /
