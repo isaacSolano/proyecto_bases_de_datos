@@ -35,5 +35,16 @@ union all
     select idrepartoserie from repartosserie id
 union all
     select idsaga from sagasserie id
-
+union all
+    select iddescarga from descargaspeliculas id
+union all
+    select idpreferencia from preferenciaspeliculas id
+union all
+    select idproduccion from produccionpelicula id
+union all
+    select idrepartopelicula from repartospelicula id
+union all
+    select idreproduccion from reproduccionespeliculas id
+union all
+    select idsaga from sagaspelicula id
 /
