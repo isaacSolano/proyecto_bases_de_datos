@@ -1,0 +1,10 @@
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (8616520263, to_date('25/05/2005', 'dd/mm/yyyy'), 'activo', '1141651857', '1234561044');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (4730638513, to_date('13/03/2003', 'dd/mm/yyyy'), 'pausa', '1199142441', '1236541286');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (8919406393, to_date('16/04/2000', 'dd/mm/yyyy'), 'pausa', '1404763985', '1472582467');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (5439231686, to_date('12/12/2012', 'dd/mm/yyyy'), 'activo', '1806567710', '1472586244');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (1650189948, to_date('06/06/2006', 'dd/mm/yyyy'), 'pausa', '2047940791', '1472588166');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (8641918462, to_date('07/09/1985', 'dd/mm/yyyy'), 'activo', '2137075722', '1796441333');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (8493802044, to_date('08/08/2008', 'dd/mm/yyyy'), 'activo', '3088181072', '3214561055');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (1056693321, to_date('25/11/2001', 'dd/mm/yyyy'), 'completo', '3133075206', '3214561264');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (6826796813, to_date('31/12/2020', 'dd/mm/yyyy'), 'completo', '3453691137', '3692554438');
+insert into descargaspeliculas (iddescarga, fechaini, estado, idusuario, idpelicula) values (6519243109, to_date('04/01/1999', 'dd/mm/yyyy'), 'activo', '3834807351', '3692582683');

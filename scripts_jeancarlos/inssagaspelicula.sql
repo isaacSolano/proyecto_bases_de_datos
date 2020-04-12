@@ -1,0 +1,10 @@
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (4754922672, 'Rapidos y furiosos', to_date('12/01/2009','mm/dd/yyyy'), 'con saga', 'accion',3692582683);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (1732342198, 'Harry Potter', to_date('11/02/2005','mm/dd/yyyy'), 'con saga', 'comedias',1472582467);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (5944713764, 'Uncle Drew', to_date('10/03/1900','mm/dd/yyyy'), 'con saga', 'ciencia ficcion',3214561055);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (5080907437, 'Space jam', to_date('09/04/1999','mm/dd/yyyy'), 'con saga', 'dramas',9638522755);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (7821569585, 'Avengers', to_date('08/05/2002','mm/dd/yyyy'), 'con saga', 'suspenso',1472588166);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (5497732011, 'Doctor Strange', to_date('07/06/2013','mm/dd/yyyy'), 'con saga', 'suspenso',3697523600);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (1895847208, 'The losers', to_date('06/07/2010','mm/dd/yyyy'), 'con saga', 'ciencia ficcion',1234561044);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (1624163756, 'John Wick', to_date('05/08/2013','mm/dd/yyyy'), 'con saga', 'dramas',3214561264);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (3753553847, 'Rapidos y furiosos', to_date('12/01/2009','mm/dd/yyyy'), 'con saga', 'accion',9638521522);
+insert into sagaspelicula (idsaga, titulo, anno, categoria, genero, idpelicula) values (4696905052, 'Avengers', to_date('08/05/2002','mm/dd/yyyy'), 'con saga', 'suspenso',7418521855);

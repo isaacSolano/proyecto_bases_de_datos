@@ -1,0 +1,10 @@
+insert into produccionseries (idproduccion, idproductor, idserie) values (9017766920, 1234567849, 1472583694);
+insert into produccionseries (idproduccion, idproductor, idserie) values (2980943442, 1236547829, 3214569872);
+insert into produccionseries (idproduccion, idproductor, idserie) values (1198376338, 1472583619, 3692581478);
+insert into produccionseries (idproduccion, idproductor, idserie) values (1194164119, 3214569873, 9325383026);
+insert into produccionseries (idproduccion, idproductor, idserie) values (44206766, 3692581437, 9638527411);
+insert into produccionseries (idproduccion, idproductor, idserie) values (7817338150, 7418529663, 3214569872);
+insert into produccionseries (idproduccion, idproductor, idserie) values (1695471934, 7896541234, 9638527411);
+insert into produccionseries (idproduccion, idproductor, idserie) values (8772108712, 3692581437, 3692581478);
+insert into produccionseries (idproduccion, idproductor, idserie) values (9508279731, 7418529663, 3214569872);
+insert into produccionseries (idproduccion, idproductor, idserie) values (824321774, 1236547829, 3692581478);

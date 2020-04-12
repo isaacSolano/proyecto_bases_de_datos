@@ -1,0 +1,10 @@
+insert into repartosserie (idrepartoserie, idserie, idactor) values (5836369071, 1472583694, 6952365741);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (8435835480, 3214569872, 6952365742);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (1158903212, 3692581478, 6952365743);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (7464701403, 9325383026, 6952365744);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (7313392632, 9638527411, 6952365745);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (3861727242, 1472583694, 6952365746);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (1512294894, 3692581478, 6952365747);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (5495273378, 9638527411, 6952365748);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (9556318929, 1472583694, 6952365745);
+insert into repartosserie (idrepartoserie, idserie, idactor) values (8891865049, 3692581478, 6952365741);

@@ -1,0 +1,10 @@
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (3259839894, 1234567849, 1234561044);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (5842488349, 1236547829, 1236541286);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (8885451430, 1472583619, 1472582467);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (2113194126, 3214569873, 1472586244);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (3753405115, 3692581437, 1472588166);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (1574665986, 7418529663, 3214561055);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (9262623792, 7896541234, 3214561055);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (7459285368, 9638527451, 3214561264);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (2772804291, 9874563212, 3692554438);
+insert into produccionpelicula (idproduccion, idproductor, idpelicula) values (3402604389, 9876543241, 3692582683);
