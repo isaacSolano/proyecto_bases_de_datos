@@ -403,7 +403,7 @@ ALTER TABLE series
     ADD CONSTRAINT ser_dir FOREIGN KEY ( iddirector )
         REFERENCES directores ( iddirector );
 
-
+SELECT * FROM CAT;
 
 -- Oracle SQL Developer Data Modeler Summary Report: 
 -- 

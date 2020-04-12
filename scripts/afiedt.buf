@@ -1,4 +1,4 @@
-select idusuario, count(idusuario)
-from preferenciascanciones
-group by idusuario
+select count(idrepartopelicula) cant, idpelicula, idactor
+from repartospelicula
+group by idpelicula, idactor
 /
