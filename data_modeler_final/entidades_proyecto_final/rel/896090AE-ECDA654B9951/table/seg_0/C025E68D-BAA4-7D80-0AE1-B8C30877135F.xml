@@ -123,6 +123,16 @@
 <colAssociation fkAssociation="CD6E6761-D240-E06C-6181-109F2B6D495D" referredColumn="FB4690B6-F57C-629E-5690-6F630F63165C"/>
 </associations>
 </Column>
+<Column name="anno" id="DCF1E820-25B1-11D3-C909-96885C940A53">
+<createdBy>isaac</createdBy>
+<createdTime>2020-04-24 17:03:47 UTC</createdTime>
+<ownerDesignName>entidades_proyecto_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="529EF520-BC66-4474-8E0A-0AFFDA439769" name="canciones_PK">

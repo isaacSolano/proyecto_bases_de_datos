@@ -1,4 +1,0 @@
-select count(idrepartopelicula) cant, idpelicula, idactor
-from repartospelicula
-group by idpelicula, idactor
-/
