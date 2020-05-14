@@ -1,0 +1,89 @@
+SQL> start con_imp1
+SQL> select p.titulo, rp.cant_reproducciones, dp.cant_descargas, p.anno, ap.cant_actores, 'Pelicula'
+  2  from peliculas p
+  3  join (
+  4  	     select idpelicula, count(idreproduccion) cant_reproducciones
+  5  	     from reproduccionespeliculas
+  6  	     group by idpelicula
+  7  ) rp on (rp.idpelicula = p.idpelicula)
+  8  join (
+  9  	     select idpelicula, count(iddescarga) cant_descargas
+ 10  	     from descargaspeliculas
+ 11  	     group by idpelicula
+ 12  ) dp on (dp.idpelicula = p.idpelicula)
+ 13  join (
+ 14  	     select idpelicula, count(idactor) cant_actores
+ 15  	     from repartospelicula
+ 16  	     group by idpelicula
+ 17  ) ap on (ap.idpelicula = p.idpelicula)
+ 18  --
+ 19  union all
+ 20  --
+ 21  select s.titulo, rs.cant_reproducciones, ds.cant_descargas, s.anno, ase.cant_actores, 'Serie'
+ 22  from series s
+ 23  join (
+ 24  	     select idserie, count(idreproduccion) cant_reproducciones
+ 25  	     from reproduccionesseries
+ 26  	     group by idserie
+ 27  ) rs on (rs.idserie = s.idserie)
+ 28  join (
+ 29  	     select idserie, count(iddescarga) cant_descargas
+ 30  	     from descargasseries
+ 31  	     group by idserie
+ 32  ) ds on (ds.idserie = s.idserie)
+ 33  join (
+ 34  	     select idserie, count(idactor) cant_actores
+ 35  	     from repartosserie
+ 36  	     group by idserie
+ 37  ) ase on (ase.idserie = s.idserie)
+ 38  /
+
+TITULO               CANT_REPRODUCCIONES CANT_DESCARGAS       ANNO CANT_ACTORES 'PELICUL                                                                                                                
+-------------------- ------------------- -------------- ---------- ------------ --------                                                                                                                
+Harry Potter                           2              3       2002            1 Pelicula                                                                                                                
+Uncle Drew                             4              2       2000            2 Pelicula                                                                                                                
+Rapidos y furiosos                     2              2       2001            1 Pelicula                                                                                                                
+The losers                             2              2       2010            1 Pelicula                                                                                                                
+Stranger Things                        1              1       2015            1 Serie                                                                                                                   
+Vikingos                               5              3       2000            1 Serie                                                                                                                   
+El mentalista                          2              3       1998            3 Serie                                                                                                                   
+La casa de papel                       5              1       1980            2 Serie                                                                                                                   
+Juego de tronos                        7              2       2012            3 Serie                                                                                                                   
+
+9 rows selected.
+
+SQL> start con_imp2
+SQL> select a.nombre, count(idpelicula) Peliculas,
+  2   (select count(IDSERIE)
+  3  	   from repartosserie spp
+  4  	  where spp.idactor = rp.idactor
+  5  ) Series,
+  6  (select min (p.anno)
+  7  	 from repartospelicula rpp
+  8  	 join peliculas p on (p.idpelicula = rpp.idpelicula)
+  9  	 where rpp.idactor = rp.idactor
+ 10  ) "Primer pelicula", (
+ 11  	 select min (s.anno)
+ 12  	 from repartosserie spp
+ 13  	 join series s on (s.idserie = spp.idserie)
+ 14  	 where spp.idactor = rp.idactor
+ 15  ) "Primer serie"
+ 16  from repartospelicula rp
+ 17  join actores  a on (rp.idactor = a.idactor)
+ 18  group by a.nombre, rp.idactor;
+
+NOMBRE                PELICULAS     SERIES Primer pelicula Primer serie                                                                                                                                 
+-------------------- ---------- ---------- --------------- ------------                                                                                                                                 
+Chris Hemsworth               1          1            2000         1998                                                                                                                                 
+Scarlett Johansson            1          1            2001         2000                                                                                                                                 
+Gwyneth Paltrow               1          1            2000         2012                                                                                                                                 
+Karen Gillan                  1          1            2006         2015                                                                                                                                 
+Brie Larson                   1          2            2015         1980                                                                                                                                 
+Elizabeth Olsen               1          1            2002         1998                                                                                                                                 
+Chris Evans                   2          0            2001                                                                                                                                              
+Will Smith                    1          2            2010         1998                                                                                                                                 
+Robert Downey Jr.             1          1            2000         1980                                                                                                                                 
+
+9 rows selected.
+
+SQL> spool off
